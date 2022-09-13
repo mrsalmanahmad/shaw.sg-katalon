@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_340 PM</name>
+   <tag></tag>
+   <elementGuidId>0c1740d5-ff4a-4f95-83ea-c9eb6c4e8a9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='moviesDiv']/div/div[3]/div[2]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.m-a-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>99fa9e97-4b46-455f-8bdf-a92848e553a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-a-0</value>
+      <webElementGuid>47991ef0-df79-47a1-8ac2-a39c74897025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-balloon-pos</name>
+      <type>Main</type>
+      <value>down</value>
+      <webElementGuid>e2ff6095-28ff-407f-a096-13f535f05106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-balloon</name>
+      <type>Main</type>
+      <value>Lido Hall 1
+12 Aug 2022</value>
+      <webElementGuid>c06a6b1b-84da-4a51-a07e-598dfb3abd10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/seat-selection/P00000000000000000501652</value>
+      <webElementGuid>771e359c-5795-400a-923c-b201668df062</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3:40 PM*+</value>
+      <webElementGuid>4de3aa1e-39f1-40b3-9fd9-d2815ed8165f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;moviesDiv&quot;)/div[@class=&quot;location-area-persist&quot;]/div[@class=&quot;movies_item-movie row block-list-showtimes&quot;]/div[@class=&quot;col-lg-7 col-sm-7 col-md-6&quot;]/div[@class=&quot;showtimes-block&quot;]/a[@class=&quot;m-a-0&quot;]</value>
+      <webElementGuid>c1fb4065-e6ed-45a5-b9d0-35a2d2f9e20e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='moviesDiv']/div/div[3]/div[2]/div/a</value>
+      <webElementGuid>d0d6963c-a35f-4242-b7a3-925bb4cc37dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| 2 hr 7 mins'])[1]/following::a[1]</value>
+      <webElementGuid>9cd1ab59-617b-476b-abec-5247b3cc222a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bullet Train'])[2]/following::a[1]</value>
+      <webElementGuid>ffffd202-237e-4b76-b9ef-17f3facf9a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*+'])[2]/preceding::a[1]</value>
+      <webElementGuid>897ae332-35ea-4384-a7d4-cc692484a5b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3:40 PM']/parent::*</value>
+      <webElementGuid>a5b4033d-231e-434e-9a71-801811759c37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/seat-selection/P00000000000000000501652')]</value>
+      <webElementGuid>efc5c128-6be5-4228-ae2e-0e427625151a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]/div[2]/div/a</value>
+      <webElementGuid>39c05c7e-73e3-42aa-9e41-181a9709107b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/seat-selection/P00000000000000000501652' and (text() = '3:40 PM*+' or . = '3:40 PM*+')]</value>
+      <webElementGuid>36b0d3e6-0ed7-4a32-a1d1-89f339d2019f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

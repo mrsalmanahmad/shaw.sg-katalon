@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_QUANTITY                                            3</name>
+   <tag></tag>
+   <elementGuidId>91136759-c963-4ddf-bf9a-70629a27f915</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ticketList']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.selections</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>244194b6-1ce3-42c0-85f4-0c084f0a12f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selections</value>
+      <webElementGuid>df538791-2da1-4119-9bf3-e3a43a256a07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            QUANTITY
+                                            3
+                                        </value>
+      <webElementGuid>5602782c-66e5-4025-bc11-9805135d304c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ticketList&quot;)/div[@class=&quot;col-lg-1 col-sm-1 col-md-1 text-center&quot;]/div[@class=&quot;wrap-content padding-0-mobile add-on-detail&quot;]/div[@class=&quot;selections&quot;]</value>
+      <webElementGuid>6a49cd85-51b9-4634-9ea0-e9de4fe612ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ticketList']/div[2]/div/div</value>
+      <webElementGuid>365e904e-c468-4545-8a61-1eaac01f80c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$14.50'])[1]/following::div[5]</value>
+      <webElementGuid>2602c483-762a-4b32-b13f-634f02771745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adult'])[1]/following::div[5]</value>
+      <webElementGuid>c895bdb7-a482-4316-bc49-d9cc1090186a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMOUNT'])[2]/preceding::div[2]</value>
+      <webElementGuid>1add640e-2405-4c2f-8b8d-397a2acf6f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>e1e85dd1-3d4c-4d04-b62f-029629b9bcef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                                            QUANTITY
+                                            3
+                                        ' or . = '
+                                            QUANTITY
+                                            3
+                                        ')]</value>
+      <webElementGuid>5227aa72-151a-4a11-b71f-c810fdf78642</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click by Xpath</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1874e68d-4c94-4e86-90c1-486937363f6e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddd97f57-9b43-4bff-a583-ff2191623532</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddd97f57-9b43-4bff-a583-ff2191623532</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+</TestCaseEntity>
