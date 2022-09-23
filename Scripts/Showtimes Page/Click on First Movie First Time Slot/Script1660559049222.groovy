@@ -20,5 +20,9 @@ import org.openqa.selenium.Keys as Keys
 String xpath = '//*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div[1]/a'
 String nope = '//*[@id="moviesDiv"]/div[1]/div[5]/div[2]/div[1]/a'
 String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
+
+// Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
+
+ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
  
 CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)

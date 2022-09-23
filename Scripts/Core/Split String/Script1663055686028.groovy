@@ -27,13 +27,27 @@ WebUI.comment(part1)
 WebUI.comment(part2)
 WebUI.comment(part3)
 
-String ncount = String.valueOf(count);
+//String s = String.format("%0"+ (8 - "Apple".length() )+"d%s",0 ,"Apple");
+//String ncount = String.valueOf(count);
 // EL0001
 String myName = part3
-String newName = myName.substring(0,5)+ncount
+String newName = ''
+
+if(count < 10) {
+	newName = myName.substring(0,5)+count
+}
+
+if(count >= 10) {
+	newName = myName.substring(0,4)+count
+}
+//String newName = myName.substring(0,5)+count
 
 WebUI.comment(newName)
-String final_string = s.substring(0,8)+newName
+//String final_string = s.substring(0,8)+"_"+newName
+String final_string = part1+'_'+part2+"_"+newName
 
 WebUI.comment("***************" +final_string)
+
 //String newName = myName.substring(0,4)+'x'+myName.substring(5)
+
+return final_string

@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>337b7dbe-5fb2-417a-9a7b-83ed123e1361</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ab24297-6290-414d-a154-3bd25b3e0d09</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>8ab24297-6290-414d-a154-3bd25b3e0d09</id>
+      <masked>false</masked>
+      <name>Movie_Count</name>
+   </variable>
 </TestCaseEntity>

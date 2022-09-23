@@ -23,4 +23,6 @@ String x = WebUI.getText(findTestObject(path), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment(x)
 
-return x
+int n = Integer.parseInt(x)
+
+return n

@@ -19,27 +19,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.deleteAllCookies()
 
-WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open Shaw sg'), null,
-	 FailureHandling.STOP_ON_FAILURE)
+int Movie_Count = 5
+boolean seat_found = false
 
-WebUI.callTestCase(findTestCase('Test Cases/Main Page Elements/Click on Showtimes button'), null,
-	FailureHandling.STOP_ON_FAILURE)
-
-int Movies = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
-	FailureHandling.STOP_ON_FAILURE)
-
-int Movies_time = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
-	FailureHandling.STOP_ON_FAILURE)
-
-if(Movies > 0) {
-	if(Movies_time > 0) {
-		WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on First Movie First Time Slot'), null,
-			FailureHandling.STOP_ON_FAILURE)
+while(seat_found == false) {
+	
+	WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open Shaw sg'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('Test Cases/Main Page Elements/Click on Showtimes button'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	int Movies = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	int Movies_time = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	if(Movies > 0) {
+		if(Movies_time > 0) {
+			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on First Movie First Time Slot'),
+				[('Movie_Count'):Movie_Count],
+				FailureHandling.STOP_ON_FAILURE)
+		}
 	}
+	
+	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	Movie_Count++
 }
-
-WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
-	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)

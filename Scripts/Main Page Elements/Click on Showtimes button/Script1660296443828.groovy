@@ -21,3 +21,5 @@ String btn = 'Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'
 
 WebUI.click(findTestObject(btn), FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.navigateToUrl("https://shaw.sg/Showtimes", FailureHandling.STOP_ON_FAILURE)
+
