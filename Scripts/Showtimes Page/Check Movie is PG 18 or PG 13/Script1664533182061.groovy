@@ -17,14 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String xpath = '//*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div[1]/a'
-String nope = '//*[@id="moviesDiv"]/div[1]/div[5]/div[2]/div[1]/a'
-String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
+String xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div[3]/div[1]/div[1]/div/p[1]/span[1]/span'
 
+//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a
 //*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
 
-// Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
+//*[@id="moviesDiv"]/div[1]/div[7]/div[1]/div[1]/div/p[1]/span[1]/span
+//*[@id="moviesDiv"]/div[1]/div[7]/div[2]/div[1]/a
 
-ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
- 
-CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)
+xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[1]/div[1]/div/p[1]/span[1]/span'
+
+String val = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'), 
+	[('xpath'):xpath_for_pg,('attrr'):'class'],
+		FailureHandling.STOP_ON_FAILURE)
+
+String s = val
+String[] parts = s.split("-")
+String part1 = parts[0] 
+String part2 = parts[1] 
+String part3 = parts[2]
+String part4 = parts[3]
+
+WebUI.comment(part1)
+WebUI.comment(part2)
+WebUI.comment(part3)
+WebUI.comment(part4)
+
+// m18 pull for pg 18 movies
+// pg13 pull for pg 13 movies
+
+if(part4 == 'm18 pull') {
+	return 'PG 18'
+}
+else if(part4 == 'pg13 pull') {
+	return 'PG 13'
+}

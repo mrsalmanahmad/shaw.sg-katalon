@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Card Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e778d6b4-2b7f-4e34-9019-946ba05fec0e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80c75181-63f0-4dc7-81a6-ca050031015b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'345678901234564'</defaultValue>
+      <description></description>
+      <id>80c75181-63f0-4dc7-81a6-ca050031015b</id>
+      <masked>false</masked>
+      <name>CNumber</name>
+   </variable>
+</TestCaseEntity>

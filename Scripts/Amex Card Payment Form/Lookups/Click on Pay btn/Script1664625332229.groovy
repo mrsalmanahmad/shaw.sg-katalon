@@ -17,14 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String xpath = '//*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div[1]/a'
-String nope = '//*[@id="moviesDiv"]/div[1]/div[5]/div[2]/div[1]/a'
-String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
+String btn = 'Object Repository/Page_Cart/Amex Card Payment form/a_Pay'
 
-//*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
+WebUI.click(findTestObject(btn), FailureHandling.STOP_ON_FAILURE)
 
-// Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
-
-ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
- 
-CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)
+WebUI.enableSmartWait()
