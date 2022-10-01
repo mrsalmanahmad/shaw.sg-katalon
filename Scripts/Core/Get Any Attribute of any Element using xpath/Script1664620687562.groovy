@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String xpath = '//*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div[1]/a'
-String nope = '//*[@id="moviesDiv"]/div[1]/div[5]/div[2]/div[1]/a'
-String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
+String val = CustomKeywords.'custom.com.pk.GetAnyAttributeofanyElement'(xpath,attrr)
 
-//*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
-
-// Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
-
-ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
- 
-CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)
+return val

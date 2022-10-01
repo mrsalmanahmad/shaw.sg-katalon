@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6e4ee8c-6d26-4c51-b0f4-43791124d677</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a555079-6c4a-49bb-8496-1d79c9076d9b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'AutomationBot'</defaultValue>
+      <description></description>
+      <id>1a555079-6c4a-49bb-8496-1d79c9076d9b</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+</TestCaseEntity>

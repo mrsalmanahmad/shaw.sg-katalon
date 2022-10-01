@@ -19,8 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.deleteAllCookies()
 
-int Movie_Count = 5
+int Movie_Count = 3
 boolean seat_found = false
+String PG = ''
 
 while(seat_found == false) {
 	
@@ -34,6 +35,10 @@ while(seat_found == false) {
 		FailureHandling.STOP_ON_FAILURE)
 	
 	int Movies_time = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
+		FailureHandling.STOP_ON_FAILURE)
+	
+	PG = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Check Movie is PG 18 or PG 13'),
+		[('Movie_Count'):Movie_Count],
 		FailureHandling.STOP_ON_FAILURE)
 	
 	if(Movies > 0) {
@@ -53,8 +58,10 @@ while(seat_found == false) {
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
-	FailureHandling.CONTINUE_ON_FAILURE)
+if(PG == 'PG 18') {
+	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
+		FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
