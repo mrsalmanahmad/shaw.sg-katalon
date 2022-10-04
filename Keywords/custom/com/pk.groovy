@@ -718,6 +718,13 @@ public class pk {
 			return arr.get(0)
 		}
 	}
+	
+	@Keyword
+	def GetTotalNumberOfMoviesInOnSegment(xpath,attribute) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		ArrayList<Integer> arr = new ArrayList<Integer>(1);
+		List<WebElement> searchTextBoxes = driver.findElements(By.xpath(xpath))
+	}
 
 	@Keyword
 	def GetDashboardTable(exp) {

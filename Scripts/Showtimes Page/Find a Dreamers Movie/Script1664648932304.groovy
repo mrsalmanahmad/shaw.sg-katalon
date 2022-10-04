@@ -17,15 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String xpath = '//*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div[1]/a'
-String nope = '//*[@id="moviesDiv"]/div[1]/div[5]/div[2]/div[1]/a'
-String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
-
-//*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
-
-// Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
-
-ted = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Get Movies Row Xpath'), [('Movie_Count'):Movie_Count],
-		FailureHandling.STOP_ON_FAILURE)
- 
-CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)
+String segment_1 = '//*[@id="moviesDiv"]/div[1]/div/div[2]/div/a'
+String segment_2 = '//*[@id="moviesDiv"]/div[3]/div/div[2]/div[1]/a'
+String segment_3 = '//*[@id="moviesDiv"]/div[5]/div/div[2]/div[1]/a'
+String segment_4 = '//*[@id="moviesDiv"]/div[7]/div/div[2]/div/a'
+String segment_5 = '//*[@id="moviesDiv"]/div[9]/div/div[2]/div[1]/a'
+String segment_6 = '//*[@id="moviesDiv"]/div[11]/div/div[2]/div[1]/a'
+String segment_7 = '//*[@id="moviesDiv"]/div[13]/div/div[2]/div[1]/a'
+String segment_8 = '//*[@id="moviesDiv"]/div[15]/div/div[2]/div[1]/a'
