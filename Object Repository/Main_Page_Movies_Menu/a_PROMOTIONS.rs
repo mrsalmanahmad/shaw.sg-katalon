@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_PROMOTIONS</name>
+   <tag></tag>
+   <elementGuidId>62e23713-b4ce-41e2-92a2-c818d604f636</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar']/div[8]/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>eebb1a10-2a02-4a2f-818b-8a6260da970f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/promotion</value>
+      <webElementGuid>55a46c91-d742-4ec6-938d-a9540bb2a5c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    
+                    PROMOTIONS
+                </value>
+      <webElementGuid>92fa7b3f-1994-49e3-ac91-979045ba250a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;sidebar-item-menu clearfix&quot;]/a[1]</value>
+      <webElementGuid>0d5557b8-87b1-4db4-be9b-101a98e7bbf3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar']/div[8]/ul/li[3]/a</value>
+      <webElementGuid>ed7b36cb-454f-4297-9d10-678f11a6d34c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PROMOTIONS']/parent::*</value>
+      <webElementGuid>9ff76a4f-fdb8-4994-b71f-27a7792f7b18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/promotion')]</value>
+      <webElementGuid>fc04419b-3a1a-429c-9677-814d874d2610</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/ul/li[3]/a</value>
+      <webElementGuid>1dceeade-2e7f-4d67-aab7-3bae180d4087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/promotion' and (text() = '
+                    
+                    PROMOTIONS
+                ' or . = '
+                    
+                    PROMOTIONS
+                ')]</value>
+      <webElementGuid>f2c187af-319f-49e3-abf1-099288916ac7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

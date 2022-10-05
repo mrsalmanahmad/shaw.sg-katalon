@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Premiere_Menu</name>
+   <tag></tag>
+   <elementGuidId>3f22592b-2307-435a-a892-65f8ff174ead</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.img-responsive.sprite-desktop-nav-premiere.mar-left-35</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar']/div[4]/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fcbc2057-6f01-4b87-b4aa-a3f58df58eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-responsive sprite-desktop-nav-premiere mar-left-35</value>
+      <webElementGuid>9b95fcfd-170e-408e-b47e-53556e7987e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;premiere&quot;]/a[1]/div[@class=&quot;img-responsive sprite-desktop-nav-premiere mar-left-35&quot;]</value>
+      <webElementGuid>f94cd070-4633-499c-a047-2c04cac669cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar']/div[4]/a/div</value>
+      <webElementGuid>db7dd0aa-c481-4de1-b5db-5e3f5fa99365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a/div</value>
+      <webElementGuid>3cd35f63-8ab9-4ff1-b40a-51b1d91b57c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SUBSCRIBE</name>
+   <tag></tag>
+   <elementGuidId>abcdbbb7-52f5-4929-a459-ed2ddb52bb7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#sub_button > span.mar-left-30</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='sub_button']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b8904e96-0497-4664-bd0c-7a7891d26945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mar-left-30</value>
+      <webElementGuid>486b2e8b-d8c9-4aaa-b673-136a2063a596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SUBSCRIBE</value>
+      <webElementGuid>952f6a2e-aed2-4eb4-9d77-a6d2d87bce0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;sidebar-item-menu clearfix show-for-desktop-only&quot;]/a[@id=&quot;sub_button&quot;]/span[@class=&quot;mar-left-30&quot;]</value>
+      <webElementGuid>38d4c0a0-225b-4b83-bef3-f903aebefd80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='sub_button']/span</value>
+      <webElementGuid>23331102-1096-4f4f-805b-c214d7a2f9c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LIVE CHAT'])[1]/following::span[1]</value>
+      <webElementGuid>c4648b19-cad9-4c8a-9af0-a6d9000052a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SAFRA LOGIN'])[1]/following::span[2]</value>
+      <webElementGuid>7fd076da-42cd-40a1-ac00-1e44664d1569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::span[4]</value>
+      <webElementGuid>88b65310-9f1d-48dd-8517-96f916f55975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow us'])[1]/preceding::span[5]</value>
+      <webElementGuid>8318ad40-3bcf-48c5-9c4e-550a5043ac2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SUBSCRIBE']/parent::*</value>
+      <webElementGuid>c33e8ab4-65e2-4511-9f4b-5a0991337c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/a/span</value>
+      <webElementGuid>c9559646-4fb6-4ef9-84e1-64c7fcdb743a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'SUBSCRIBE' or . = 'SUBSCRIBE')]</value>
+      <webElementGuid>d35cde93-c23e-40df-898d-4d6696e140c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

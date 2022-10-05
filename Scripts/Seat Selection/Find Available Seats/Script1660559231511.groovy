@@ -47,12 +47,16 @@ WebUI.callTestCase(findTestCase('Test Cases/Core/Get Attrr Value by ID'),
 	[('id'):id,('attrr'):"href"],
 	FailureHandling.STOP_ON_FAILURE)
 
-int count = 5
+int count = count_1
 int selected = 0
 boolean seat_is_selected = false
 int seat_number = 0
 String new_seat_id = ''
 boolean seat_found = false
+
+id = WebUI.callTestCase(findTestCase('Test Cases/Core/Split String'),
+	[('id'):id,('count'):count],
+	FailureHandling.STOP_ON_FAILURE)
 
 while(seat_is_selected == false) {
 	
