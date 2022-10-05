@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int Movie_Count = 5
+int Movie_Count = 3
 boolean seat_found = false
 String PG = ''
 
@@ -26,7 +26,7 @@ while(seat_found == false) {
 	WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open Shaw sg'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	
-	WebUI.callTestCase(findTestCase('Test Cases/Main Page Elements/Click on Showtimes button'), null,
+	WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open IMAX Movies'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	
 	int Movies = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
@@ -41,13 +41,13 @@ while(seat_found == false) {
 	
 	if(Movies > 0) {
 		if(Movies_time > 0) {
-			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on First Movie First Time Slot'),
+			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/IMax Movies Selection/Click on IMax Movies'),
 				[('Movie_Count'):Movie_Count],
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
 	
-	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
+	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), [('count_1'):2],
 		FailureHandling.STOP_ON_FAILURE)
 	
 	Movie_Count++

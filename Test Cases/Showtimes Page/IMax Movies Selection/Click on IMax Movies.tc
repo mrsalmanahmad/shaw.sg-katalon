@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Find Available Seats</name>
+   <name>Click on IMax Movies</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3a98c13c-6a67-42e5-b07a-d7c176018f6c</testCaseGuid>
+   <testCaseGuid>bb583381-3bab-446e-ab32-35a14d2df43e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1228bccf-4f59-4ed3-b5e9-b7f36eb8ba4e</variableId>
+      <variableId>29b25bd7-c30c-4c7a-9efb-216062ab1878</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>5</defaultValue>
+      <defaultValue>3</defaultValue>
       <description></description>
-      <id>1228bccf-4f59-4ed3-b5e9-b7f36eb8ba4e</id>
+      <id>29b25bd7-c30c-4c7a-9efb-216062ab1878</id>
       <masked>false</masked>
-      <name>count_1</name>
+      <name>Movie_Count</name>
    </variable>
 </TestCaseEntity>

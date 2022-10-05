@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_THEATRES</name>
+   <tag></tag>
+   <elementGuidId>a6cb7427-e151-4064-8534-c8fc954173f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar']/div[8]/ul/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4d073b00-2169-43a3-b242-834e17378f80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/theatres</value>
+      <webElementGuid>9e20d3a0-a39d-494a-b81a-aeb2cea03cdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    
+                    THEATRES
+                </value>
+      <webElementGuid>48d43110-2e9b-485b-a22a-14669c3ded74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;sidebar-menu&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;sidebar-item-menu clearfix&quot;]/a[1]</value>
+      <webElementGuid>8b4b47e3-e6eb-40e1-a3cc-6b63716775fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar']/div[8]/ul/li[5]/a</value>
+      <webElementGuid>d1b8d08f-5a15-4d54-b21f-ff7547b63d5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SAFRA LOGIN'])[1]/preceding::a[2]</value>
+      <webElementGuid>31cabd46-5039-4c1d-b376-66cf53825793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='THEATRES']/parent::*</value>
+      <webElementGuid>9cc93244-bee7-4b19-ad92-96b3ee2776e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/theatres')]</value>
+      <webElementGuid>1951a2f5-6564-4e2f-939c-dc10cc98cf61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/ul/li[5]/a</value>
+      <webElementGuid>427a4eb9-c6cf-496a-a117-492538d6d312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/theatres' and (text() = '
+                    
+                    THEATRES
+                ' or . = '
+                    
+                    THEATRES
+                ')]</value>
+      <webElementGuid>819825c9-f1a2-4690-83f7-b19634df7532</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
