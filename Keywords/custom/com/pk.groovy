@@ -827,7 +827,7 @@ public class pk {
 		WebElement element = driver.findElement(By.id(id))
 		String prop = element.getProperties()
 		print(prop)
-		String eleid = element.getAttribute("href")
+		String eleid = element.getAttribute(attrr)
 		return eleid
 	}
 

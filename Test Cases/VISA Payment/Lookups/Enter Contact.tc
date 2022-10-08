@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Contact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1f4f229-390d-4d6a-bbd0-8995e0ababb1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b206f14c-f125-4af5-909e-cef0f401126f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123456789'</defaultValue>
+      <description></description>
+      <id>b206f14c-f125-4af5-909e-cef0f401126f</id>
+      <masked>false</masked>
+      <name>Contact_Number</name>
+   </variable>
+</TestCaseEntity>

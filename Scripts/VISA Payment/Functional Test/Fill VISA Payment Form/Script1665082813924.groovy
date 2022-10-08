@@ -17,9 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Select VISA Payment Option'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.comment("Value of the color is : "+ val)
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter Name'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-return val
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter Email'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter Contact'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter Card Number'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter Expiry Date'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Enter CVV Number'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Click on Pay btn'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)

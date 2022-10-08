@@ -17,9 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
-
-WebUI.comment("Value of the color is : "+ val)
-
-return val
-
+String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
+ 
+ //*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
+ 
+ // Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
+ 
+ ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
+ 
+ CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)

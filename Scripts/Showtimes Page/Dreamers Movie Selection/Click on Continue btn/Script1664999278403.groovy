@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
+String ctn= 'Object Repository/Dreamers Seat Selection/Continue btn'
 
-WebUI.comment("Value of the color is : "+ val)
-
-return val
-
+WebUI.click(findTestObject(ctn), FailureHandling.STOP_ON_FAILURE)

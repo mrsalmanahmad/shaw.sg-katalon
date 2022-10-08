@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
+String VISA = 'Object Repository/VISA Payment/input_Choose your payment method_gender'
 
-WebUI.comment("Value of the color is : "+ val)
-
-return val
+WebUI.click(findTestObject(VISA), FailureHandling.STOP_ON_FAILURE)
 

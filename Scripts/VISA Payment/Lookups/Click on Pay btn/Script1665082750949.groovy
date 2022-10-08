@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
+String btn = 'Object Repository/VISA Payment/button_PAY'
 
-WebUI.comment("Value of the color is : "+ val)
+WebUI.click(findTestObject(btn), FailureHandling.STOP_ON_FAILURE)
 
-return val
-
+WebUI.enableSmartWait()

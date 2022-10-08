@@ -17,9 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
+String Card_Number = "4001590000000001"
 
-WebUI.comment("Value of the color is : "+ val)
+String CN = 'Object Repository/VISA Payment/iframe_Card number_checkout-frames-cardNumber'
 
-return val
+WebUI.click(findTestObject(CN), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.enableSmartWait()
+
+WebUI.sendKeys(findTestObject(CN), Card_Number, FailureHandling.STOP_ON_FAILURE)

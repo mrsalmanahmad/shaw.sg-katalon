@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Seat Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1f5e110-695c-4e84-980d-ddd4de1f4d52</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3712ad1a-bc75-4927-be10-b71fcc9eff21</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3712ad1a-bc75-4927-be10-b71fcc9eff21</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

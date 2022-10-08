@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find Available Seats</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64f7b090-6caa-41b9-9844-a8ebcdae7a22</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a5c30f2-0122-486f-b0dc-ba41ad1e20b1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>0a5c30f2-0122-486f-b0dc-ba41ad1e20b1</id>
+      <masked>false</masked>
+      <name>count_1</name>
+   </variable>
+</TestCaseEntity>
