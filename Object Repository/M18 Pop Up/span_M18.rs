@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_M18</name>
+   <tag></tag>
+   <elementGuidId>c2471f4a-cc6e-4f81-abfd-cb7664c26444</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.popup-headline.rating-heading > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popup-rating-warning']/div[2]/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fbfd543c-6c98-47f6-8182-5bcc6c3336b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>M18</value>
+      <webElementGuid>37491646-a5ef-4453-bf46-2d05a8c473ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup-rating-warning&quot;)/div[@class=&quot;popup-float-wrapper popup-alert&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-inner&quot;]/div[@class=&quot;popup-headline rating-heading&quot;]/span[1]</value>
+      <webElementGuid>5d3c0a4a-e02c-4203-919e-09b8fd5ed6f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popup-rating-warning']/div[2]/div/div/div/span</value>
+      <webElementGuid>c916e41b-8189-4e50-8d7f-cd091b6fee93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[5]/following::span[1]</value>
+      <webElementGuid>f5aedcda-665a-4eee-ac82-e5391165f428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vaccinated Only Hall'])[1]/following::span[1]</value>
+      <webElementGuid>02656369-564a-43c7-a8a8-e8bdd4c5abec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IMPORTANT PLEASE READ'])[1]/preceding::span[2]</value>
+      <webElementGuid>d1512cd9-aca6-49a2-82a0-0925f7a3afd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please note that this film is rated M18 - Mature 18 for persons 18 years and above'])[1]/preceding::span[2]</value>
+      <webElementGuid>8a885f33-3762-4d58-afbc-4b3ab3b70623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='M18']/parent::*</value>
+      <webElementGuid>717b6806-a8a2-49de-b862-633edfcaba03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[27]/div[2]/div/div/div/span</value>
+      <webElementGuid>afc0003d-dc24-49f6-9ff2-33011a727cd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'M18' or . = 'M18')]</value>
+      <webElementGuid>23fd77d2-60fe-4b23-b099-2bfb59a30a7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

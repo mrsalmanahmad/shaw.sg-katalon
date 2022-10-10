@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check if Invalid Seat Selection Popup on-off</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f052b081-2307-4b95-ba3c-42f50f1b3c6a</testCaseGuid>
+</TestCaseEntity>

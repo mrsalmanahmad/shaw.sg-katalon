@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click on Ok btn of Invalid Seat Selection Popup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>020a32a9-e954-4275-abef-0ff2e43d6306</testCaseGuid>
+</TestCaseEntity>

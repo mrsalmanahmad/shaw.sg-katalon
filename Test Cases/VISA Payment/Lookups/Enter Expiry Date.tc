@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Expiry Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de4eb748-08d7-46c7-bcc7-11453e2decd0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c98c83d-e9b9-4e68-a6c7-642e5cfbf5cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0125'</defaultValue>
+      <description></description>
+      <id>7c98c83d-e9b9-4e68-a6c7-642e5cfbf5cc</id>
+      <masked>false</masked>
+      <name>EDate</name>
+   </variable>
+</TestCaseEntity>

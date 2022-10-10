@@ -22,3 +22,4 @@ String val = CustomKeywords.'custom.com.pk.GetAttrrOfEleById'(id,attrr)
 WebUI.comment("Value of the color is : "+ val)
 
 return val
+

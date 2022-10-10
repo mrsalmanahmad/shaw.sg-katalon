@@ -46,6 +46,7 @@ WebUI.comment(newName)
 //String final_string = s.substring(0,8)+"_"+newName
 String final_string = part1+'_'+part2+"_"+newName
 
+WebUI.comment("count is "+ count)
 WebUI.comment("***************" +final_string)
 
 //String newName = myName.substring(0,4)+'x'+myName.substring(5)

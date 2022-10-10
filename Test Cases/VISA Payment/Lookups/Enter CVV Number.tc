@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter CVV Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0af534a-4de2-4edb-b49a-33b9e2230e81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d2d2b3b-3b75-434e-b599-3a5f069e361b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'123'</defaultValue>
+      <description></description>
+      <id>3d2d2b3b-3b75-434e-b599-3a5f069e361b</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+</TestCaseEntity>
