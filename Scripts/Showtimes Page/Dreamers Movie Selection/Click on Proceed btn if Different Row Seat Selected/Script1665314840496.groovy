@@ -17,22 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String Seat_Available_Status = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-avail.png'
-String Seat_Selected_Status = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png'
-String Seat_Unavailable_Status = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-unavail.png'
-
-String xpath = '//*[@id="'+id+'"]'
-WebUI.comment(xpath)
-String status = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'),
-		[('xpath'):xpath,('attrr'):"xlink:href"],
-		FailureHandling.STOP_ON_FAILURE)
-	// JWLDRM_SD_EL0003_shape
-if(status == Seat_Available_Status) {
-	return 'Available'
+String ok_btn = 'Object Repository/Dreamers Seat Selection/Different Rows of Seats Popup/a_Proceed'
+boolean diff_seat_selection = false
+diff_seat_selection = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Check if Different Row Warning Popup Opened'),
+		[:],FailureHandling.OPTIONAL)
+if(diff_seat_selection == true) {
+	// Close the Popup and find new seats
+	WebUI.click(findTestObject(ok_btn), FailureHandling.OPTIONAL)
 }
-else if(status == Seat_Unavailable_Status){
-	return 'UnAvailable'
-}
-else if(status == Seat_Selected_Status ){
-	return 'Selected'
-}
+return diff_seat_selection

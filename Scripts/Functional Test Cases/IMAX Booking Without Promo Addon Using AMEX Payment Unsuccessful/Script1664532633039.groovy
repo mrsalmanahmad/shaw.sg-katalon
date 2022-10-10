@@ -60,12 +60,18 @@ if(PG == 'PG 18') {
 	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
 }
+else if(PG == 'NC 16') {
+	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/NC 16 Pop Up/Click on Agree btn of NC 16 Pop Up'), null,
+		FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Continue Addon btn'), null,
-	FailureHandling.STOP_ON_FAILURE)
+if(PG != 'NC 16') {
+	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Continue Addon btn'), null,
+		FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('Test Cases/Amex Card Payment Form/Fill the Amex Payment Form'), null,
 	FailureHandling.STOP_ON_FAILURE)

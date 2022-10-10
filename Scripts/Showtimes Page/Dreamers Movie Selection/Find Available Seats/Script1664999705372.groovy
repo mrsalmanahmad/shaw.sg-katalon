@@ -45,9 +45,9 @@ String Seat_Status = ''
 
 WebUI.comment("I am here ++++===== "+id)
 
-WebUI.callTestCase(findTestCase('Test Cases/Core/Get Seat Status'),
-	[('id'):Seat_Status],
-	FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/Core/Get Seat Status'),
+//	[('id'):Seat_Status],
+//	FailureHandling.STOP_ON_FAILURE)
 
 int count = count_1
 int selected = 0
@@ -55,10 +55,21 @@ boolean seat_is_selected = false
 int seat_number = 0
 String next_seat_id = ''
 boolean seat_found = false
-
+boolean invalid_seat_selection = false
 //String id_2 = WebUI.callTestCase(findTestCase('Test Cases/Core/Split String'),
 //	[('id'):id,('count'):count],
 //	FailureHandling.STOP_ON_FAILURE)
+def SeatInvalid() {
+	boolean invalid_seat_selection = false
+	invalid_seat_selection = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Check if Invalid Seat Selection Popup on-off'),
+		[:],FailureHandling.OPTIONAL)
+	if(invalid_seat_selection == true) {
+		// Close the Popup and find new seats
+		WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Ok btn of Invalid Seat Selection Popup'),
+			[:],FailureHandling.OPTIONAL)
+	}
+	return invalid_seat_selection
+}
 
 while(seat_is_selected == false) {
 	String seat1 = ''
@@ -70,19 +81,17 @@ while(seat_is_selected == false) {
 	String newName = xpath.substring(0,9)+id+xpath.substring(24,26)
 	WebUI.comment("New Xpath of Seat is --> " + newName)
 	Seat_Status_Path = id+color
-	
 	// Check if seat is not available don't click on it
 	Seat_Status = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Seat Status'),
 		[('id'):Seat_Status_Path],
 		FailureHandling.STOP_ON_FAILURE)
-	
 	if(Seat_Status == 'Available') {
+		invalid_seat_selection = SeatInvalid()
 		// Click on the seat
 		CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(newName)
 		// Check if the seat is Selected or not
 		selected = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Get Quantity of Seats Selected'), null,
 			FailureHandling.STOP_ON_FAILURE)
-		
 		if(selected > 0) {
 			seat1 = newName // Store previous seat xpath if next seat not found we should de select this seat
 			count = count+1
@@ -97,9 +106,17 @@ while(seat_is_selected == false) {
 				FailureHandling.STOP_ON_FAILURE)
 			if(Seat_Status == 'Available') {
 				// Click on Next Seat
+				invalid_seat_selection = SeatInvalid()
 				CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(newName)
+				invalid_seat_selection = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Check if Invalid Seat Selection Popup on-off'),
+					[:],FailureHandling.OPTIONAL)
+				if(invalid_seat_selection == true) {
+					// Close the Popup and find new seats
+					WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Ok btn of Invalid Seat Selection Popup'),
+						[:],FailureHandling.OPTIONAL)
+				}
 			}
-			else if(Seat_Status != 'Available') {
+			else if(Seat_Status != 'Available' || invalid_seat_selection == true) {
 				// De-Select First Seat
 				CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(seat1)
 			}
@@ -119,6 +136,7 @@ while(seat_is_selected == false) {
 		seat_found = false
 	}
 	count++
+	invalid_seat_selection = false
 }
 
 return seat_found

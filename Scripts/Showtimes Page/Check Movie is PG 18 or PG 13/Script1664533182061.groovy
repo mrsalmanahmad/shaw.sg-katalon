@@ -52,3 +52,6 @@ if(part4 == 'm18 pull') {
 else if(part4 == 'pg13 pull') {
 	return 'PG 13'
 }
+else if(part4 == 'nc16') {
+	return 'NC 16'
+}
