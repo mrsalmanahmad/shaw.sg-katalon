@@ -68,10 +68,6 @@ else if(PG == 'NC 16') {
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-
-WebUI.callTestCase(findTestCase('Test Cases/Add Ons Cart Page/Select Add on if Available'), null,
-	FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Continue Addon btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hover over a btn and click</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c59e0b07-d298-4e4b-8bb7-3e279d5d852e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8bdf618-950e-4c13-8b2f-cae424afe0c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8bdf618-950e-4c13-8b2f-cae424afe0c1</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+</TestCaseEntity>

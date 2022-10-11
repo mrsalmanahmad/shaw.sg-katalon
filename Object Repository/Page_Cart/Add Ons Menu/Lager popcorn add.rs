@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Lager popcorn add</name>
+   <tag></tag>
+   <elementGuidId>1abe1286-e778-4f07-ae8e-2d26b15cca2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-qty > i.fa.fa-plus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;concessions_list&quot;]/div[2]/div/div[2]/div/i[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>959eaaf3-0011-4578-9341-5933d1518c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus</value>
+      <webElementGuid>c99b7519-378f-4507-bc98-aaba9fcd53e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;concessions_list&quot;)/div[@class=&quot;item COMBPACK&quot;]/div[@class=&quot;item-add&quot;]/div[@class=&quot;item-option&quot;]/div[@class=&quot;item-qty&quot;]/i[@class=&quot;fa fa-plus&quot;]</value>
+      <webElementGuid>9a092aa3-dd80-43ce-abe7-3e58832bee42</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='concessions_list']/div[2]/div/div[2]/div/i[2]</value>
+      <webElementGuid>b6ce9fe2-d3da-4ba7-ad78-77690bceafa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/i[2]</value>
+      <webElementGuid>caa540f6-296a-4ebc-855b-e0575af8f037</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add to cart</name>
+   <tag></tag>
+   <elementGuidId>1e0e11dd-5fd1-4986-b44c-9ae0eea609e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.bt-a-mybutton.bt-bg-red.conc-add-cart-btn.show-conc-items</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='concessions_list']/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>265738b4-0f94-4c6c-8342-086e448bd9f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-sku-code</name>
+      <type>Main</type>
+      <value>SK-LRGCOM</value>
+      <webElementGuid>70557d85-e841-47f9-bb3f-f95e0a9c49d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bt-a-mybutton bt-bg-red conc-add-cart-btn show-conc-items</value>
+      <webElementGuid>bd0383b1-3e08-42ac-8384-4a1bcd39bca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to cart</value>
+      <webElementGuid>8a41ff87-aa88-4af5-a02f-9b6cae499b8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;concessions_list&quot;)/div[@class=&quot;item COMBPACK&quot;]/a[@class=&quot;bt-a-mybutton bt-bg-red conc-add-cart-btn show-conc-items&quot;]</value>
+      <webElementGuid>c1a21a20-f305-4e39-8c04-966791d87399</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='concessions_list']/div[2]/a</value>
+      <webElementGuid>4441b3af-b7e9-4e8c-8e92-8a151fc91726</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add to cart')]</value>
+      <webElementGuid>173a525d-6299-4080-9612-262d4c7f2e65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Large Popcorn Combo'])[1]/following::a[2]</value>
+      <webElementGuid>e7a25bea-78aa-48fb-ad8e-1a68fe1f9e1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SK-LRGCOM'])[1]/following::a[2]</value>
+      <webElementGuid>1228eca6-8aca-4a29-80b4-f3ec19e41063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SK-REGCOM'])[1]/preceding::a[1]</value>
+      <webElementGuid>76fc3678-1bd2-4204-96b4-b40ef8ee788a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular Popcorn Combo'])[1]/preceding::a[1]</value>
+      <webElementGuid>4d153b53-5ecc-4af9-a6f7-241de0a02c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
+      <webElementGuid>7d548cf4-9ca7-4522-8ea2-b29b76bc8ea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/div/div/div[2]/a</value>
+      <webElementGuid>85c2188d-af17-4fd8-9e4b-ab9da0b03f1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>412d50c6-1926-42f8-9c66-549cc0747e93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
