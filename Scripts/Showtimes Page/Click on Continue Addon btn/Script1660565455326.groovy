@@ -22,4 +22,4 @@ String btn = 'Object Repository/Page_Cart/a_CONTINUE_addon'
 WebUI.scrollToElement(findTestObject(btn), 10)
 WebUI.enableSmartWait()
 
-WebUI.click(findTestObject(btn), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject(btn), FailureHandling.OPTIONAL)
