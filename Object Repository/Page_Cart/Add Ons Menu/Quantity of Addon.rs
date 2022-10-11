@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Quantity of Addon</name>
+   <tag></tag>
+   <elementGuidId>551c4ce2-7a39-4dbe-a5a5-ce8a786c3745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#addOnBreakdownSelection > div > div.col-md-4.col-sm-6.col-xs-6.right-text > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='addOnBreakdownSelection']/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1c55e301-d23e-4910-be9f-1aa4493b274c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>84f1b81d-f2fd-4044-961f-685a4c5bf303</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addOnBreakdownSelection&quot;)/div[1]/div[@class=&quot;col-md-4 col-sm-6 col-xs-6 right-text&quot;]/p[1]</value>
+      <webElementGuid>4071f9a0-c310-4b97-a847-7477178ccead</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='addOnBreakdownSelection']/div/div[2]/p</value>
+      <webElementGuid>5078dd34-e14a-4485-98d1-94688738e99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD-ONS'])[1]/following::p[2]</value>
+      <webElementGuid>16a4fe6e-440a-40a4-b42c-bb359974e424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMOS'])[2]/following::p[4]</value>
+      <webElementGuid>8b05ee36-6928-4585-a50c-1abc1b7abf9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click on the image to select quantity of combo to purchase.'])[1]/preceding::p[2]</value>
+      <webElementGuid>54039651-4d47-481a-b116-8030a504c2f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SK-LRGCOM'])[1]/preceding::p[2]</value>
+      <webElementGuid>dedd3290-1e86-4d25-82bd-5372ad99f2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>ef3643ad-683b-4764-8366-8c39700d7264</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1' or . = '1')]</value>
+      <webElementGuid>a615595d-837f-4739-89f3-9d62c2736d5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

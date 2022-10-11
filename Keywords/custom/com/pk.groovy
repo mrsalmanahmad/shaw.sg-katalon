@@ -596,6 +596,16 @@ public class pk {
 			}
 		}
 	}
+	@Keyword
+	def HoverAndClick(xpath) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement element = driver.findElement(By.xpath(xpath))
+		
+		Actions actions = new Actions(driver)
+		actions.moveToElement(element)
+		actions.perform()
+		element.click()
+	}
 
 	@Keyword
 	def GetXYPostionClick(xpath,Action) {
