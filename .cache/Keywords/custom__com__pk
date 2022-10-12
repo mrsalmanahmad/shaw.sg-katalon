@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F0D2C0C8701A645D09613A61524281FE",
+  "keywordFileContentHash": "A5AF1D60F0EE70666E2F6B501A53941B",
   "keywordClasses": [
     {
       "name": "custom.com.pk",
@@ -437,6 +437,25 @@
             },
             {
               "name": "statusid",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "HoverAndClick",
+          "parameters": [
+            {
+              "name": "xpath",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.Object",
