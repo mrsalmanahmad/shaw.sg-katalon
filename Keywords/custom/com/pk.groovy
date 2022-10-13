@@ -39,6 +39,7 @@ import static org.junit.Assert.*;
 import org.openqa.selenium.support.ui.Select;
 import java.io.*
 import internal.GlobalVariable
+import org.openqa.selenium.Alert;
 
 public class pk {
 
@@ -600,7 +601,7 @@ public class pk {
 	def HoverAndClick(xpath) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement element = driver.findElement(By.xpath(xpath))
-		
+
 		Actions actions = new Actions(driver)
 		actions.moveToElement(element)
 		actions.perform()
@@ -1168,5 +1169,14 @@ public class pk {
 		enterPrice.sendKeys(Keys.chord("500000", Keys.TAB));
 
 		//assertTrue(sliderPercent.contains("left: 50"));
+	}
+	
+	@Keyword
+	def AcceptAlert() {
+		WebDriver driver = DriverFactory.getWebDriver()
+		// This step will result in an alert on screen
+		driver.findElement(By.id("alertButton")).click()
+		Alert simpleAlert = driver.switchTo().alert()
+		simpleAlert.accept()
 	}
 }
