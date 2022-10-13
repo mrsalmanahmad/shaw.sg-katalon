@@ -47,11 +47,14 @@ WebUI.comment(part4)
 // pg13 pull for pg 13 movies
 
 if(part4 == 'm18 pull') {
-	return 'PG 18'
+	return 'M18'
 }
 else if(part4 == 'pg13 pull') {
 	return 'PG 13'
 }
 else if(part4 == 'nc16') {
+	return 'NC 16'
+}
+else if(part4 == 'R21') {
 	return 'NC 16'
 }

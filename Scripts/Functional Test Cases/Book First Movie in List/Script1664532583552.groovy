@@ -58,7 +58,7 @@ while(seat_found == false) {
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-if(PG == 'PG 18') {
+if(PG == 'M18') {
 	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
 }
