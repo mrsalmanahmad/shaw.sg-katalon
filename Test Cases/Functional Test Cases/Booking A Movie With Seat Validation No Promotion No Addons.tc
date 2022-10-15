@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Booking a movie showtime as per normal basis (with Seat validation) 
+Steps:
+Select Showtimes filter and select the first movie showtime	&quot;Seats Selection(Select seats in the same row with space in between)
+
+Prompt advisory message for invalid (Click Ok)&quot;	&quot;Seats Selection(Seats selected are from different rows)
+
+Click confirm seats
+
+Seat validation will prompt
+
+Click 'Modify Selection'&quot;	Click 'Reset Seats'	Seats Selection(Select Seats that are beside each other)	If != NC16 and above		No Promotions added (must cater either with continue or no continue button)	No Add on added (must cater either with continue or no continue button)	Click 'Cancel' button
+					If == NC16 or M18 or R21	Prompt advisory message for ratings (Click Agree)</description>
+   <name>Booking A Movie With Seat Validation No Promotion No Addons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8772133-6a43-4bf4-b301-7acdd84451e6</testCaseGuid>
+</TestCaseEntity>

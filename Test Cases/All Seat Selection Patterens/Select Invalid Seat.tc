@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Invalid Seat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5e13054-ff52-48c6-a571-b03549d629f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df403593-48dd-40a6-8e99-a155c662779c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f56d67a3-35c3-4f67-abd2-ac216102f93b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>df403593-48dd-40a6-8e99-a155c662779c</id>
+      <masked>false</masked>
+      <name>count_1</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>f56d67a3-35c3-4f67-abd2-ac216102f93b</id>
+      <masked>false</masked>
+      <name>ci</name>
+   </variable>
+</TestCaseEntity>

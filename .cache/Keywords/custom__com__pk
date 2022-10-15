@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A5AF1D60F0EE70666E2F6B501A53941B",
+  "keywordFileContentHash": "E2C25F0EB112D5E760EF9C01DE543F68",
   "keywordClasses": [
     {
       "name": "custom.com.pk",
@@ -1159,6 +1159,11 @@
               }
             }
           ],
+          "javadoc": ""
+        },
+        {
+          "name": "AcceptAlert",
+          "parameters": [],
           "javadoc": ""
         },
         {

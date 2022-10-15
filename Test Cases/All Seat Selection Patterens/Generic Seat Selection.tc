@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generic Seat Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f427c48b-cbdc-48b8-a593-f165d4082a4e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ea8a063-02dd-4392-9cd4-bd9a616b0560</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>8ea8a063-02dd-4392-9cd4-bd9a616b0560</id>
+      <masked>false</masked>
+      <name>count_1</name>
+   </variable>
+</TestCaseEntity>
