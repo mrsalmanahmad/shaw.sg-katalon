@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Modify Selection</name>
+   <tag></tag>
+   <elementGuidId>1caa6a51-dd55-4e91-8a7d-f268173ba62c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.button.form-control.mid-wide.bg-red.inline.seat-warn-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popup-seating-warning']/div[2]/div/div/div[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a6168d9f-d730-4b02-a05f-4c041b4ea87f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button form-control mid-wide bg-red inline seat-warn-btn</value>
+      <webElementGuid>620d65f8-5e45-4094-917f-2a2a50c04634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>7ce6a194-5b18-4906-a9af-4fb2c80b5bdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Modify Selection</value>
+      <webElementGuid>9dbfd71a-21d0-4a86-bbbf-046872fd38c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup-seating-warning&quot;)/div[@class=&quot;popup-float-wrapper popup-alert&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-inner&quot;]/div[@class=&quot;popup-control&quot;]/a[@class=&quot;button form-control mid-wide bg-red inline seat-warn-btn&quot;]</value>
+      <webElementGuid>c745bb0a-1638-4f3d-a34c-03bc0388fa2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popup-seating-warning']/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>7868e25f-0b5c-4996-9298-c1a90af2aa63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Modify Selection')]</value>
+      <webElementGuid>4cbdc6b8-338e-4c87-bd45-e1328254367e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Different Rows of Seats'])[1]/following::a[1]</value>
+      <webElementGuid>7193e715-58ca-4bdb-a2c1-c6a961c0b4ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::a[1]</value>
+      <webElementGuid>addb503b-172c-4a40-b71f-fadabe737c92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceed'])[1]/preceding::a[1]</value>
+      <webElementGuid>99d282c4-8b79-4876-b49d-c0d1e5a36481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart Processing Error'])[1]/preceding::a[2]</value>
+      <webElementGuid>a95a6c68-e73b-4611-a064-811ac4238c17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Modify Selection']/parent::*</value>
+      <webElementGuid>f27059da-1ab3-4e4e-a8df-7a7f04e93ef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[39]</value>
+      <webElementGuid>111245b9-131e-400f-9abd-79c19c558370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[28]/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>f20730ec-1c6e-436f-8e83-6915df5bf339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Modify Selection' or . = 'Modify Selection')]</value>
+      <webElementGuid>11b5dcc5-8884-4853-a304-a618a88eed9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
