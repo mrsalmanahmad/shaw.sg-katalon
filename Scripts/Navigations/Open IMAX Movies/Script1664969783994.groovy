@@ -20,7 +20,9 @@ import org.openqa.selenium.Keys as Keys
 //String IMax_Menu = 'Object Repository/Main_Page_Movies_Menu/Imax_Menu'
 //
 //WebUI.click(findTestObject(IMax_Menu), FailureHandling.STOP_ON_FAILURE)
+String Env_URL = GlobalVariable.URL
+String IMAX_URL = Env_URL + "IMAX"
 
-WebUI.navigateToUrl("https://shaw.sg/IMAX", FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(IMAX_URL, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enableSmartWait()
