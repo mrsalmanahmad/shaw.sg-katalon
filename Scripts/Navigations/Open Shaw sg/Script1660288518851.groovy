@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser("https://shaw.sg/", FailureHandling.STOP_ON_FAILURE)
+String Env_URL = GlobalVariable.URL 
+
+WebUI.openBrowser(Env_URL, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enableSmartWait()
 

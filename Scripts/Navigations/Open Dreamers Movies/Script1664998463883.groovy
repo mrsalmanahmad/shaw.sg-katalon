@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl("https://shaw.sg/dreamers", FailureHandling.STOP_ON_FAILURE)
+String Env_URL = GlobalVariable.URL
+String Dreamers_URL = Env_URL + "dreamers"
+
+WebUI.navigateToUrl(Dreamers_URL, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enableSmartWait()
