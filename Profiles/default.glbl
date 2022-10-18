@@ -9,4 +9,9 @@
       <initValue>'https://shaw.sg/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PROD'</initValue>
+      <name>Env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

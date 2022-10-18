@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check on Which popup we should click</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e530d96-0bd0-4461-b4b1-be758c951707</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e33c588d-cc79-48da-b942-c58fd1e5bee8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e33c588d-cc79-48da-b942-c58fd1e5bee8</id>
+      <masked>false</masked>
+      <name>PG</name>
+   </variable>
+</TestCaseEntity>

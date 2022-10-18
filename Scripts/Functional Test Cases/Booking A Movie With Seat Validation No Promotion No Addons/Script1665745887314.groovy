@@ -50,7 +50,7 @@ while(seat_found == false) {
 	
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patterens/Select Invalid Seat'), 
 		[('count_1'):2,
-		 ('ci'):2	
+		 ('ci'):5	
 		],
 		FailureHandling.STOP_ON_FAILURE)
 	
@@ -59,6 +59,9 @@ while(seat_found == false) {
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Check on Which popup we should click'), [('PG'):PG],
+	FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Different Seat Selection Popup/Click on Modify Seat Selection btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
@@ -75,14 +78,8 @@ seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patt
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-if(PG == 'M18') {
-	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
-		FailureHandling.CONTINUE_ON_FAILURE)
-}
-else if(PG == 'NC 16') {
-	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/NC 16 Pop Up/Click on Agree btn of NC 16 Pop Up'), null,
-		FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Check on Which popup we should click'), [('PG'):PG],
+	FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
 	FailureHandling.STOP_ON_FAILURE)

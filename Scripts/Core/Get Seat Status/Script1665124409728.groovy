@@ -21,18 +21,39 @@ String Seat_Available_Status = 'https://ngsprodstorage1.blob.core.windows.net/pr
 String Seat_Selected_Status = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png'
 String Seat_Unavailable_Status = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-unavail.png'
 
+String Seat_Available_Status_UAT = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-avail.png'
+String Seat_Selected_Status_UAT = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png'
+String Seat_Unavailable_Status_UAT = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-unavail.png'
+
+String GlobalEnv = GlobalVariable.Env
+
 String xpath = '//*[@id="'+id+'"]'
 WebUI.comment(xpath)
 String status = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'),
 		[('xpath'):xpath,('attrr'):"xlink:href"],
 		FailureHandling.STOP_ON_FAILURE)
 	// JWLDRM_SD_EL0003_shape
-if(status == Seat_Available_Status) {
-	return 'Available'
+if(GlobalEnv == 'PROD') {
+	if(status == Seat_Available_Status) {
+		return 'Available'
+	}
+	else if(status == Seat_Unavailable_Status){
+		return 'UnAvailable'
+	}
+	else if(status == Seat_Selected_Status ){
+		return 'Selected'
+	}
 }
-else if(status == Seat_Unavailable_Status){
-	return 'UnAvailable'
+
+if(GlobalEnv == 'UAT') {
+	if(status == Seat_Available_Status_UAT) {
+		return 'Available'
+	}
+	else if(status == Seat_Unavailable_Status){
+		return 'UnAvailable'
+	}
+	else if(status == Seat_Selected_Status ){
+		return 'Selected'
+	}
 }
-else if(status == Seat_Selected_Status ){
-	return 'Selected'
-}
+
