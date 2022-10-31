@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 String Seat_Available_Status = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-avail.png'
 String Seat_Selected_Status = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png'
 String Seat_Unavailable_Status = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-unavail.png'
+String Handi_Cap_Seat = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-wheelchair-avail.png'
 
 String Seat_Available_Status_UAT = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-avail.png'
 String Seat_Selected_Status_UAT = 'https://nonprodngsstorageshawsg.blob.core.windows.net/uat/content/images/layout/default/en-sg/seat-curr-select.png'
@@ -43,6 +44,9 @@ if(GlobalEnv == 'PROD') {
 	else if(status == Seat_Selected_Status ){
 		return 'Selected'
 	}
+	else if(status == Handi_Cap_Seat) {
+		return 'Handicap'
+	}
 }
 
 if(GlobalEnv == 'UAT') {
@@ -54,6 +58,9 @@ if(GlobalEnv == 'UAT') {
 	}
 	else if(status == Seat_Selected_Status ){
 		return 'Selected'
+	}
+	else if(status == Handi_Cap_Seat) {
+		return 'Handicap'
 	}
 }
 

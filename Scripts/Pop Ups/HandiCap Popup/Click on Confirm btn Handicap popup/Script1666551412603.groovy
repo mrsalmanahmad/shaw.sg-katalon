@@ -17,7 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String btn = 'Object Repository/Dreamers Seat Selection/Dreamers Invalid Seat Selected Popup/a_OK'
+String Handicap_confirm = 'Object Repository/HandiCap Seat Popup/a_Confirm'
 
-WebUI.click(findTestObject(btn), FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject(Handicap_confirm), 10, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject(Handicap_confirm), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.enableSmartWait()

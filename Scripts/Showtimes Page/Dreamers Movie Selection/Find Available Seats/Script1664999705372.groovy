@@ -27,8 +27,8 @@ String attrr = 'id'
 String color = '_shape'
 String seats = '_backRect'
 
-int size = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Total Size of Element by class name'), 
-	[('class_name'):class_name,('attrr'):attrr],
+int size = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Number of Available Seats in a Screen'),
+	[:],
 	FailureHandling.STOP_ON_FAILURE)
 
 String id = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Element Id by class name'),
@@ -131,7 +131,7 @@ while(seat_is_selected == false) {
 		seat_found = true
 	}
 	
-	if(count >= 50) {
+	if(count >= size) {
 		seat_is_selected = true
 		seat_found = false
 	}

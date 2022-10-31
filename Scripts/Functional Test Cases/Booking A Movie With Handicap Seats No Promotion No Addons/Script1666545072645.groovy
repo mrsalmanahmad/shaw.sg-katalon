@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.deleteAllCookies()
-
 int Movie_Count = 3
 boolean seat_found = false
 String PG = ''
 
 while(seat_found == false) {
 	
+	WebUI.comment("Select Showtimes filter and select the first movie showtime")
 	WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open Shaw sg'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	
@@ -43,13 +42,16 @@ while(seat_found == false) {
 	
 	if(Movies > 0) {
 		if(Movies_time > 0) {
-			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on First Movie First Time Slot'),
+			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/IMax Movies Selection/Click on IMax Movies'),
 				[('Movie_Count'):Movie_Count],
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
 	
-	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
+	seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patterens/Select Handicap Seat'), 
+		[('count_1'):2,
+		 ('ci'):5	
+		],
 		FailureHandling.STOP_ON_FAILURE)
 	
 	Movie_Count++
@@ -58,19 +60,55 @@ while(seat_found == false) {
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-if(PG == 'M18') {
-	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
-		FailureHandling.CONTINUE_ON_FAILURE)
-}
-else if(PG == 'NC 16') {
-	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/NC 16 Pop Up/Click on Agree btn of NC 16 Pop Up'), null,
-		FailureHandling.CONTINUE_ON_FAILURE)
-}
+WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Check on Which popup we should click'), [('PG'):PG],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+//WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Different Seat Selection Popup/Click on Modify Seat Selection btn'), null,
+//	FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Reset btn'), null,
+//	FailureHandling.STOP_ON_FAILURE)
+//
+//seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patterens/Select Invalid Seat'),
+//	[('count_1'):2,
+//	 ('ci'):1
+//	],
+//	FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
+//	FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/Check on Which popup we should click'), [('PG'):PG],
+//	FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.callTestCase(findTestCase('Test Cases/Add Ons Cart Page/Select Add on if Available'), null,
+//	FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Continue Addon btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booking btn'), null,
+	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert(FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booking btn'), null,
+	FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert(FailureHandling.OPTIONAL)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
+	FailureHandling.STOP_ON_FAILURE)
+
 WebUI.deleteAllCookies()
+
+//WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Select VISA Payment Option'), null,
+//	FailureHandling.CONTINUE_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Functional Test/Cancel VISA Payment'), null,
+//	FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.deleteAllCookies()

@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String btn = 'Object Repository/Dreamers Seat Selection/Dreamers Invalid Seat Selected Popup/a_OK'
+String class_name = 'ej-d-node'
+String Attrr = 'id'
 
-WebUI.click(findTestObject(btn), FailureHandling.OPTIONAL)
+int size = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Total Size of Element by class name'),
+	[('class_name'):class_name,('attrr'):Attrr],
+	FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment("Size of the seats is ---> "+ size)
+
+return size
