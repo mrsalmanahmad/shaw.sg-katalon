@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cancel</name>
+   <tag></tag>
+   <elementGuidId>d4452cdd-292e-4297-966f-06567b0cdd49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popup-seat-confirmation']/div[2]/div/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.button.form-control.mid-wide.bg-white.inline.btn-reset-booking</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b197d286-3b6d-4f89-8ec1-c854c3b42119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button form-control mid-wide bg-white inline btn-reset-booking</value>
+      <webElementGuid>6f5eea31-d934-4414-883f-2d7a672a7aa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+      <webElementGuid>60b0e505-6e02-4c2e-93b9-69ebadc8a237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup-seat-confirmation&quot;)/div[@class=&quot;popup-float-wrapper pad mainwidth&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-inner&quot;]/div[@class=&quot;popup-control&quot;]/a[@class=&quot;button form-control mid-wide bg-white inline btn-reset-booking&quot;]</value>
+      <webElementGuid>f62bcfc8-5723-4550-99ed-8c5e13dee77d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popup-seat-confirmation']/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>35fd74f0-fc3d-4d4c-97b4-a06f799f1cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Cancel')])[4]</value>
+      <webElementGuid>5196e1d9-8c34-45e8-8d18-6a3e6a3b65c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Seat Selection'])[1]/following::a[1]</value>
+      <webElementGuid>ba4d79d2-7a4f-4c1e-89a3-fc29ea25e360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[3]/following::a[2]</value>
+      <webElementGuid>4fdf864d-6377-45ea-a056-218d7b7172a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::a[1]</value>
+      <webElementGuid>ebb6c6b6-555a-4d6d-9bcf-3b762ff5334c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seat Selection Invalid'])[1]/preceding::a[3]</value>
+      <webElementGuid>ea1c858b-85ae-47d9-813e-9734970a1823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>17e63095-b59d-4480-9804-8926179e8e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>3ea3e25c-e773-4582-aeef-ec0d728b86ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

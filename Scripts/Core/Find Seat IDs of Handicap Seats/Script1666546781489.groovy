@@ -17,7 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String btn = 'Object Repository/Dreamers Seat Selection/Dreamers Invalid Seat Selected Popup/a_OK'
+WebUI.openBrowser('https://shaw.sg/seat-selection/P00000000000000000528816')
 
-WebUI.click(findTestObject(btn), FailureHandling.OPTIONAL)
+String Handi_Cap_Seat = 'https://ngsprodstorage1.blob.core.windows.net/prd/content/images/layout/default/en-sg/seat-curr-wheelchair-avail.png'
 
+String GlobalEnv = GlobalVariable.Env
+
+String xpath = '//*[@id="'+id+'"]'
+WebUI.comment(xpath)
+String status = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'),
+		[('xpath'):xpath,('attrr'):"xlink:href"],
+		FailureHandling.STOP_ON_FAILURE)

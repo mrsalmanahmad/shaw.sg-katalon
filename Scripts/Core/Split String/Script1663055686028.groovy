@@ -37,9 +37,14 @@ if(count < 10) {
 	newName = myName.substring(0,5)+count
 }
 
-if(count >= 10) {
+if(count >= 10 && count <= 99) {
 	newName = myName.substring(0,4)+count
 }
+
+else if(count >= 99) {
+	newName = myName.substring(0,3)+count
+}
+
 //String newName = myName.substring(0,5)+count
 
 WebUI.comment(newName)
