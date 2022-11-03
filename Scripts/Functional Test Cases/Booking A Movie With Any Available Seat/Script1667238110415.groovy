@@ -55,14 +55,18 @@ while(seat_found == false) {
 	Movie_Count++
 }
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
 if(PG == 'M18') {
+	WebUI.takeFullPageScreenshot()
 	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
 }
 else if(PG == 'NC 16') {
+	WebUI.takeFullPageScreenshot()
 	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/NC 16 Pop Up/Click on Agree btn of NC 16 Pop Up'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
 }
@@ -86,4 +90,5 @@ WebUI.acceptAlert(FailureHandling.OPTIONAL)
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
 	FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeFullPageScreenshot()
 WebUI.deleteAllCookies()
