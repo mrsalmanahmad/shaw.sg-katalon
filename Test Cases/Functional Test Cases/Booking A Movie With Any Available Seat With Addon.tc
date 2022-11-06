@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Booking A Movie With Any Available Seat With Addon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96ac518-4f43-4095-8ba5-5cc1e7957dd6</testCaseGuid>
+</TestCaseEntity>
