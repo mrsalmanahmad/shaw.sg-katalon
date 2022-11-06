@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String Env_URL = GlobalVariable.URL
-String Dreamers_URL = Env_URL + "dreamers"
+String S_A = 'Object Repository/Dreamers Seat Selection/Select Again btn'
 
-WebUI.navigateToUrl(Dreamers_URL, FailureHandling.STOP_ON_FAILURE)
-//WebUI.navigateToUrl("https://shaw.sg/seat-selection/P00000000000000000537552", FailureHandling.STOP_ON_FAILURE)
-
-WebUI.enableSmartWait()
+WebUI.click(findTestObject(S_A), FailureHandling.STOP_ON_FAILURE)
