@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Select_family pack</name>
+   <tag></tag>
+   <elementGuidId>84a5fd9e-cbdc-474a-9fd0-714e6d59504e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='promotions_selection']/div/div/div[2]/a/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-custom.text-uppercase.btn-buy.btn_promotion_addtocart_overlay.bt-a-promo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>794c441b-b164-4101-845d-c86ee47fa24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-code</name>
+      <type>Main</type>
+      <value>CA-IM-FAMILY</value>
+      <webElementGuid>1f5eb4f8-0986-4cbd-8866-217fe65ade08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-custom text-uppercase btn-buy btn_promotion_addtocart_overlay bt-a-promo</value>
+      <webElementGuid>635dd920-3cfc-417f-a889-a7608ce70e0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>89b96bb7-78d7-48e2-981c-13908d461388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;promotions_selection&quot;)/div[@class=&quot;item item_promo&quot;]/div[@class=&quot;item-add&quot;]/div[@class=&quot;add-cart-promo-section&quot;]/a[1]/button[@class=&quot;btn btn-primary btn-custom text-uppercase btn-buy btn_promotion_addtocart_overlay bt-a-promo&quot;]</value>
+      <webElementGuid>ca479c66-c257-4fad-9d3a-c42325242249</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='promotions_selection']/div/div/div[2]/a/button</value>
+      <webElementGuid>2a41a28f-ad4c-4579-bc40-ee88ddb0a49d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONFIRM'])[1]/following::button[1]</value>
+      <webElementGuid>a191da91-c074-4325-80d9-c91d743e8823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/following::button[1]</value>
+      <webElementGuid>a908e44c-77ed-4365-a38e-ae048469e6c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Conditions'])[1]/preceding::button[1]</value>
+      <webElementGuid>72616a26-18da-4c83-b88a-ed07cf77e356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select']/parent::*</value>
+      <webElementGuid>b3b43e5a-71cf-42d4-abc5-388727eee77d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/button</value>
+      <webElementGuid>3ee26957-9f04-4c5a-be43-d19b5d52f9a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Select' or . = 'Select')]</value>
+      <webElementGuid>b662b32e-00da-4d73-92d1-08f9a24a692c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

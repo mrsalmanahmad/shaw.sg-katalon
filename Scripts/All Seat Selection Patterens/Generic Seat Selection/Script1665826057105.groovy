@@ -131,7 +131,7 @@ while(seat_is_selected == false) {
 		seat_found = true
 	}
 	
-	if(count >= 50) {
+	if(count == size) {
 		seat_is_selected = true
 		seat_found = false
 	}

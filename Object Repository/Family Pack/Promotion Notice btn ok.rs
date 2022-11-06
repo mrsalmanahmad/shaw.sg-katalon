@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Promotion Notice btn ok</name>
+   <tag></tag>
+   <elementGuidId>31907368-becb-4664-a7d4-be623910fb99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popup-promotion-redeemed']/div[2]/div/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#popup-promotion-redeemed > div.popup-float-wrapper.popup-alert > div.popup-wrapper > div.popup-inner > div.popup-control > a.button.form-control.mid-wide.bg-red.inline.decline</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ce0e56d5-2234-4bc9-8177-1979dc9e467f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button form-control mid-wide bg-red inline decline</value>
+      <webElementGuid>be99a394-061a-4b65-9173-2a3355bc15c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>370bfd3e-e874-4bab-b8fd-00342505b9ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ok</value>
+      <webElementGuid>57bb0922-c38e-4c27-8054-4cfaeec93d82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup-promotion-redeemed&quot;)/div[@class=&quot;popup-float-wrapper popup-alert&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-inner&quot;]/div[@class=&quot;popup-control&quot;]/a[@class=&quot;button form-control mid-wide bg-red inline decline&quot;]</value>
+      <webElementGuid>e0e0ff4b-b81f-412c-96dd-579b0b53bd18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popup-promotion-redeemed']/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>662e4e82-d5a8-46a5-a0a6-d1e8ad2c31fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Ok')])[6]</value>
+      <webElementGuid>21e8abb7-2f9b-4a7b-81e6-c2a8a4220d34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion Notice'])[4]/following::a[1]</value>
+      <webElementGuid>5c7853c4-a537-4c06-90d2-071bac736baa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion Notice'])[3]/following::a[2]</value>
+      <webElementGuid>518f621c-9cb9-4031-82e9-a7c43338a2ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion Notice'])[5]/preceding::a[1]</value>
+      <webElementGuid>6c429ef2-913b-4f95-9e90-d9b8e38f4d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion Notice'])[6]/preceding::a[2]</value>
+      <webElementGuid>3c696cde-100c-4086-929c-0099244fcbaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[43]</value>
+      <webElementGuid>e294ba62-d89c-4220-aec4-b37875c4acff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[30]/div[2]/div/div/div[3]/a</value>
+      <webElementGuid>12d9f29a-c418-4a76-b275-71dc83dff6d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Ok' or . = 'Ok')]</value>
+      <webElementGuid>b115e0af-b120-4ab7-8d17-bf219c745f84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
