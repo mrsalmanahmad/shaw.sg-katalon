@@ -6,12 +6,11 @@
    <elementGuidId>8ef17c22-5c7c-4e87-aa90-9df8831d6554</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/i[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div/i[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>abb85ba7-746a-4eeb-81e6-7916b7e3c9ef</webElementGuid>
+      <webElementGuid>3b1a596f-07f4-4ec5-b095-d7761e18dbfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-plus dr-plus</value>
-      <webElementGuid>ef730155-4e44-4f32-8bea-0a66b1f742c1</webElementGuid>
+      <webElementGuid>09088cad-f805-4e79-99db-fb4366a6f8e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths cb-customize-desktop chrome&quot;]/body[1]/div[@class=&quot;wrap-table&quot;]/div[@class=&quot;wrap-display-row&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;seat-sections-content&quot;]/div[@class=&quot;container big-step cart-breakdown&quot;]/div[@class=&quot;dreamers-tix-section&quot;]/div[@class=&quot;row black-back cart-section&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;dreamers-ticket-section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-xs-4 text-center&quot;]/div[@class=&quot;dreamers-qty-section&quot;]/i[@class=&quot;fa fa-plus dr-plus&quot;]</value>
-      <webElementGuid>b94f3162-a231-4f23-bf7f-074fd023bcb1</webElementGuid>
+      <webElementGuid>029c4212-7875-406a-97cf-e5680ac96e3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +45,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/i[2]</value>
-      <webElementGuid>a268db5c-59be-4945-903f-940e626e523c</webElementGuid>
+      <webElementGuid>22a18a0b-3f9d-4d9a-b124-1d4d3169fe5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
