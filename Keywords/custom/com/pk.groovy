@@ -1170,7 +1170,7 @@ public class pk {
 
 		//assertTrue(sliderPercent.contains("left: 50"));
 	}
-	
+
 	@Keyword
 	def AcceptAlert() {
 		WebDriver driver = DriverFactory.getWebDriver()

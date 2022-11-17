@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-boolean flag = true
+boolean flag = false
 while(flag == false) {
 	WebUI.callTestCase(findTestCase('Test Cases/Functional Test Cases/Booking A Movie With Any Available Seat'), null,
 		FailureHandling.STOP_ON_FAILURE)
