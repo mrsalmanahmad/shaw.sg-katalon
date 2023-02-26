@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='rating_confirm']</value>
+         <value>/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div[9]/div[2]/div/div/div[3]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>aeba9918-26b0-434e-8bea-5a59b8b6c41b</webElementGuid>
+      <webElementGuid>3e02c13a-6ed9-4e97-955f-3e6c918cc2d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button form-control mid-wide bg-red inline</value>
-      <webElementGuid>57d727bd-fc06-4d84-9220-11e6fee110b0</webElementGuid>
+      <webElementGuid>f44527d1-126e-460f-98c1-1780034a3b9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>rating_confirm</value>
-      <webElementGuid>9389bdba-0153-4ada-8b1b-01af43bc848f</webElementGuid>
+      <webElementGuid>cba8a330-ed99-40c0-96c8-21a95cf28e6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Agree</value>
-      <webElementGuid>75d8db0e-69f8-4a4e-a14d-9f24eeb3373b</webElementGuid>
+      <webElementGuid>689cabe2-8d6d-4f14-9887-12f8db0d17fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rating_confirm&quot;)</value>
-      <webElementGuid>d7112de7-6f72-48c0-9ba8-5d0a1d751b9f</webElementGuid>
+      <webElementGuid>aace136f-07ec-4067-ae4d-18ed6ee80e6e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='rating_confirm']</value>
-      <webElementGuid>bca68443-6abf-403d-bfe9-5114d2ac5604</webElementGuid>
+      <webElementGuid>6c45d787-2d58-4dc6-95ba-713dfc65ae80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popup-rating-warning']/div[2]/div/div/div[3]/a</value>
-      <webElementGuid>3c044f89-2471-43b1-bcb9-a4f3cf768891</webElementGuid>
+      <webElementGuid>945046f5-30e2-4a13-af6c-b32d980c3996</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Agree')]</value>
-      <webElementGuid>f336b583-a18c-4586-a549-3cdd6b27bfd9</webElementGuid>
+      <webElementGuid>cef8fb4c-3608-4d2d-a71d-1723350d5168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IMPORTANT PLEASE READ'])[1]/following::a[1]</value>
-      <webElementGuid>2451c5fc-df9a-42ea-8d32-085910ab9fae</webElementGuid>
+      <webElementGuid>d1e73cfa-70b9-4156-8ec8-26255ba32436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NC16'])[1]/following::a[1]</value>
-      <webElementGuid>9f7101fa-c2d9-4408-9950-d6ddf454bea0</webElementGuid>
+      <webElementGuid>3042fc5d-0692-4baf-ac36-c5c796d95b16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/preceding::a[1]</value>
-      <webElementGuid>54d40849-c4ff-486c-9b1f-17bce0160ce2</webElementGuid>
+      <webElementGuid>1857cdd2-c540-4102-97d0-544dddf83254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Different Rows of Seats'])[1]/preceding::a[2]</value>
-      <webElementGuid>cd145052-c24b-4206-8e1b-7fd759be798b</webElementGuid>
+      <webElementGuid>8345b166-65d8-4961-9ff6-7358621cb1fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Agree']/parent::*</value>
-      <webElementGuid>a7e223f7-2210-4a50-8640-77aa243f1c57</webElementGuid>
+      <webElementGuid>0580bd10-fffd-467c-9c15-a861f76f1754</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[27]/div[2]/div/div/div[3]/a</value>
-      <webElementGuid>d2fdf7a5-48b6-45d4-b629-02ae68f0ec11</webElementGuid>
+      <webElementGuid>9e22a093-d784-4410-b2ee-bafa66495030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'rating_confirm' and (text() = 'Agree' or . = 'Agree')]</value>
-      <webElementGuid>fa49052d-8d14-45c0-9d6f-f0ba957fedc9</webElementGuid>
+      <webElementGuid>77e8446b-41e0-4c5f-8f57-ac4109e72234</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

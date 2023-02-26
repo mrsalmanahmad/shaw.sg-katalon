@@ -26,5 +26,7 @@ String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
 // Starting movie list xpath //*[@id="moviesDiv"]/div[1]/div[3]/div[2]/div/a
 
 ted = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[2]/div/a'
+
+ted = '//*[@id="movieData"]/div[2]/div['+Movie_Count+']/div[3]/div[1]/div[2]/div/a'
  
 CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)

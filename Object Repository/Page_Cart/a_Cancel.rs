@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='payment-selection-cancel']</value>
+         <value>//*[@id=&quot;select-payment-method&quot;]/div[3]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>549c133a-bdf9-48fb-be24-0766f0738b92</webElementGuid>
+      <webElementGuid>e99d8572-822f-45ee-bd47-8ee769fc4498</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>payment-selection-cancel</value>
-      <webElementGuid>bcda19d7-16d9-4f71-afe1-0a527259f009</webElementGuid>
+      <webElementGuid>1bad985c-0605-419d-a154-0bbc2ab5690c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bt-a-mybutton bt-bg-black button-cancel-book</value>
-      <webElementGuid>3c9578b2-a6c8-4f37-8ae6-0d6d3ce201c6</webElementGuid>
+      <webElementGuid>1095aec6-f842-4a90-9d6a-b9371e9396b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>e0742263-4b21-418b-a5b7-2f06ced8f973</webElementGuid>
+      <webElementGuid>a683f43b-4db9-4d09-8bd4-b939d08f1d38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payment-selection-cancel&quot;)</value>
-      <webElementGuid>f1b51da6-417c-4775-8db5-2d4abc25dc99</webElementGuid>
+      <webElementGuid>318bbbae-8d79-4e92-abd6-fd50cdf70222</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='payment-selection-cancel']</value>
-      <webElementGuid>586dc61f-9423-4477-baee-ad3adc27b60a</webElementGuid>
+      <webElementGuid>1f867c60-dc57-4912-a9ad-980c5be02204</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='select-payment-method']/a</value>
-      <webElementGuid>0db8b943-6555-45a7-aa78-c8e909a65348</webElementGuid>
+      <webElementGuid>e4e988e5-1bac-41ab-874d-900aaddc9151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cancel')]</value>
-      <webElementGuid>c8c24c16-1bb6-400c-8fc2-a6f3415f89c2</webElementGuid>
+      <webElementGuid>10b47e23-ca73-4948-be06-07096425916f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amex'])[1]/following::a[1]</value>
-      <webElementGuid>0961dd00-8aba-4d88-90c8-5b89a5a21ad0</webElementGuid>
+      <webElementGuid>50180338-88f9-4172-8308-21063058620a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Visa/MasterCard'])[1]/following::a[1]</value>
-      <webElementGuid>f48c1192-47d0-4f7f-857f-3111eeac76c7</webElementGuid>
+      <webElementGuid>7ecfc810-0985-4407-807b-20eac88eeb65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL'])[1]/preceding::a[1]</value>
-      <webElementGuid>f590102b-1b77-4dd7-898d-ec71db22df4c</webElementGuid>
+      <webElementGuid>3f38b634-18ee-4979-8a56-20983e4db31e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AMEX CARD DETAILS'])[1]/preceding::a[1]</value>
-      <webElementGuid>e94b80f4-8d93-4a21-8ea0-882428eae119</webElementGuid>
+      <webElementGuid>e04c7779-0fbc-4bde-9e7b-7482fd77ca46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
-      <webElementGuid>fb053269-0fa5-4746-820a-432eac5f8b5a</webElementGuid>
+      <webElementGuid>4f76d6a2-5810-4c54-9c73-717e992a2c41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/div/a</value>
-      <webElementGuid>9ddb48d3-e5b6-4809-8f8a-d38dfdad81a8</webElementGuid>
+      <webElementGuid>db29e9dd-4c68-452c-bc11-3ff22505cf0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'payment-selection-cancel' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>35a5b005-ff38-4b63-b999-7b93037e2e03</webElementGuid>
+      <webElementGuid>1547d377-e20d-4aa0-841c-adbadc72d20f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

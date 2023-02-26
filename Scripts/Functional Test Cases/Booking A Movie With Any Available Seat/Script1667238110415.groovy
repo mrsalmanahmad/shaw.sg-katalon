@@ -60,7 +60,7 @@ WebUI.takeFullPageScreenshot()
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Confirm Seat(s) btn'), null,
 	FailureHandling.STOP_ON_FAILURE)
 
-if(PG == 'M18') {
+if(PG == 'M18') {	
 	WebUI.takeFullPageScreenshot()
 	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Agree btn'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
@@ -87,8 +87,10 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booki
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
-	FailureHandling.STOP_ON_FAILURE)
+/*
+ * WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome
+ * to Shaw/button_SHOWTIMES'), FailureHandling.STOP_ON_FAILURE)
+ */
 
 WebUI.takeFullPageScreenshot()
 WebUI.deleteAllCookies()

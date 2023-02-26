@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='payment-form']/a</value>
+         <value>//*[@id=&quot;payment-form&quot;]/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cc819148-6a65-42b6-959a-58e041fdfde1</webElementGuid>
+      <webElementGuid>b0f4a9bc-3bd9-4c8b-b133-19b9100a5d85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bt-a-mybutton bt-bg-black button-cancel-book</value>
-      <webElementGuid>e8dfb49b-05ec-4cba-84b8-fc9ccd001e15</webElementGuid>
+      <webElementGuid>c3a3ad58-a959-4f55-a878-8a3448a2e1c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>e9cd068e-c266-4186-9a5b-08dee3ca8987</webElementGuid>
+      <webElementGuid>39ac909a-8e9d-4d8b-8c11-c6428fc532e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payment-form&quot;)/a[@class=&quot;bt-a-mybutton bt-bg-black button-cancel-book&quot;]</value>
-      <webElementGuid>6a623447-a76b-42b8-a4b8-f472ec965dd2</webElementGuid>
+      <webElementGuid>b5037870-b0a7-446c-818d-c56e2e89604e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='payment-form']/a</value>
-      <webElementGuid>0912ddd1-fc25-4570-a451-732f1e4b01c5</webElementGuid>
+      <webElementGuid>e0346397-5376-4d12-90f2-82f6c2f3b84d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Cancel')])[2]</value>
-      <webElementGuid>ebffd3fa-9709-4b9f-8771-64a4498aefc9</webElementGuid>
+      <webElementGuid>56ca0f7b-47cd-443a-b8a0-20a57749003f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Security code'])[1]/following::a[1]</value>
-      <webElementGuid>94bfd3b1-8cc1-450d-afd2-d8d6d68dc976</webElementGuid>
+      <webElementGuid>b58c9d93-e67b-48c7-9f65-509608338f3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiry date'])[1]/following::a[1]</value>
-      <webElementGuid>d3ee267a-67ec-422d-becb-96dfe9d63f23</webElementGuid>
+      <webElementGuid>6537e722-39aa-4770-90da-a6bf5162e24d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shaw Theatres Lido'])[2]/preceding::a[1]</value>
-      <webElementGuid>34f859fa-d918-4a6e-bb99-fab4ec9bcc5a</webElementGuid>
+      <webElementGuid>9d53ba98-0205-423e-b578-56c1f2a5d3bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms and conditions of use'])[2]/preceding::a[1]</value>
-      <webElementGuid>e4c4f2ba-20af-4360-9a16-e21070dff01d</webElementGuid>
+      <webElementGuid>f366cda8-06ec-4359-a05a-5e505953dbf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[2]/a</value>
-      <webElementGuid>47591584-6efc-4744-b93a-b02031499460</webElementGuid>
+      <webElementGuid>16c7d149-c5e2-4f9a-bb9f-363319105e0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>5b855151-3af8-40d7-a5f9-3dad7677ed84</webElementGuid>
+      <webElementGuid>5bf31bed-9fc2-49b4-8507-d3178de7c6b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

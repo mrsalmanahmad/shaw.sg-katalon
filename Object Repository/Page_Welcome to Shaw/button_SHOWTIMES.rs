@@ -6,12 +6,12 @@
    <elementGuidId>85a28342-b03d-45fb-88ca-0f11452f27be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='topbar']/div/div/div/div/div/div/div[4]/form/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.btn-custom</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div[1]/div[1]/div[1]/div/div/div/div/div[1]/div/div[4]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8c4ea1f8-b8d0-4f27-9d5e-e0c1a35b5fb8</webElementGuid>
+      <webElementGuid>3791cfc7-e5a9-4897-bfb2-a40386a06201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-custom</value>
-      <webElementGuid>4dd638e9-4a0c-4c84-945e-e35d7c4c1645</webElementGuid>
+      <webElementGuid>11c3e8b4-4e82-4304-b0a5-6862a092256f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>formaction</name>
       <type>Main</type>
       <value>/showtimes</value>
-      <webElementGuid>7f8f3691-9f9a-49c8-83ff-1880aa4f1f4d</webElementGuid>
+      <webElementGuid>70ba1d7a-487e-4f81-b245-2ddbe0ec4cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <value>
                                             SHOWTIMES
                                         </value>
-      <webElementGuid>7121015e-f987-4993-adf6-866418dadad9</webElementGuid>
+      <webElementGuid>cf82d1b6-a5cc-4cbf-ac43-125748951db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;topbar&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 pad-right-40&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-9 col-sm-12 clearfix&quot;]/div[@class=&quot;list-inline pull-left m-a-0 func&quot;]/div[@class=&quot;col-md-3 showtimes-col&quot;]/form[1]/button[@class=&quot;btn btn-primary btn-custom&quot;]</value>
-      <webElementGuid>d182dd02-48ba-4623-84cb-04e6dfdc60a3</webElementGuid>
+      <webElementGuid>1b4ec3ed-bd72-4fba-9ed0-0787cbc22203</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='topbar']/div/div/div/div/div/div/div[4]/form/button</value>
-      <webElementGuid>fb6a9cdf-ed19-42d4-9c4e-66cb3020bbe3</webElementGuid>
+      <webElementGuid>b0cf0724-5dfd-4aea-80ef-04998c57bd6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>6bb02c6c-8bc3-4cc7-b95c-1599800be174</webElementGuid>
+      <webElementGuid>d112fbd1-7e3a-4eaf-a833-2a43911939c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,6 @@
                                         ' or . = '
                                             SHOWTIMES
                                         ')]</value>
-      <webElementGuid>63529065-a992-4eeb-8e9a-eb15140c5e56</webElementGuid>
+      <webElementGuid>98cc31df-6ead-40be-8dd7-8ac81b0cae02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
