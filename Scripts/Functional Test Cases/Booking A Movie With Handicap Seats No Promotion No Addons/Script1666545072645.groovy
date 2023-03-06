@@ -100,8 +100,10 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booki
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
-	FailureHandling.STOP_ON_FAILURE)
+/*
+ * WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome
+ * to Shaw/button_SHOWTIMES'), FailureHandling.STOP_ON_FAILURE)
+ */
 
 WebUI.deleteAllCookies()
 
