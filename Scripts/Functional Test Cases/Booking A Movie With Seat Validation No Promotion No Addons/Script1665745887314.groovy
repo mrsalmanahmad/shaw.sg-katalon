@@ -47,7 +47,7 @@ while(seat_found == false) {
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
-	
+	sleep(8000)
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patterens/Select Invalid Seat'), 
 		[('count_1'):2,
 		 ('ci'):5	

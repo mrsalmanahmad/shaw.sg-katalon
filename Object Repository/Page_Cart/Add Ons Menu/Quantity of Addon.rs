@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='addOnBreakdownSelection']/div/div[2]/p</value>
+         <value>//*[@id=&quot;content&quot;]/div[9]/div[4]/div[4]/div/div[2]/div/div/div/div[2]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>1c55e301-d23e-4910-be9f-1aa4493b274c</webElementGuid>
+      <webElementGuid>e55b1cdd-f396-4ff6-9eb4-2db9c9aadcad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>84f1b81d-f2fd-4044-961f-685a4c5bf303</webElementGuid>
+      <webElementGuid>ee922cba-49eb-44e8-add9-90dba1574a44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;addOnBreakdownSelection&quot;)/div[1]/div[@class=&quot;col-md-4 col-sm-6 col-xs-6 right-text&quot;]/p[1]</value>
-      <webElementGuid>4071f9a0-c310-4b97-a847-7477178ccead</webElementGuid>
+      <webElementGuid>e930d331-8633-4ecf-b1a1-080612422a94</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='addOnBreakdownSelection']/div/div[2]/p</value>
-      <webElementGuid>5078dd34-e14a-4485-98d1-94688738e99b</webElementGuid>
+      <webElementGuid>079e651b-b7fc-4e51-903e-d4ba6a24834a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD-ONS'])[1]/following::p[2]</value>
-      <webElementGuid>16a4fe6e-440a-40a4-b42c-bb359974e424</webElementGuid>
+      <webElementGuid>dc377ad8-aa29-4517-971b-432cca9c58dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMOS'])[2]/following::p[4]</value>
-      <webElementGuid>8b05ee36-6928-4585-a50c-1abc1b7abf9e</webElementGuid>
+      <webElementGuid>fce06c9d-85cf-4a93-826b-941d5df27c92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Click on the image to select quantity of combo to purchase.'])[1]/preceding::p[2]</value>
-      <webElementGuid>54039651-4d47-481a-b116-8030a504c2f9</webElementGuid>
+      <webElementGuid>eccc5c27-6d24-4c94-a758-afc213687fdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SK-LRGCOM'])[1]/preceding::p[2]</value>
-      <webElementGuid>dedd3290-1e86-4d25-82bd-5372ad99f2d1</webElementGuid>
+      <webElementGuid>7022826b-9a45-4ae3-bad4-31534e6bdbb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/p</value>
-      <webElementGuid>ef3643ad-683b-4764-8366-8c39700d7264</webElementGuid>
+      <webElementGuid>047c232f-cddb-4a77-812c-92d628f3c44c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = '1' or . = '1')]</value>
-      <webElementGuid>a615595d-837f-4739-89f3-9d62c2736d5e</webElementGuid>
+      <webElementGuid>44bfe5a6-4b97-4509-b0bb-71f53ce95d14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

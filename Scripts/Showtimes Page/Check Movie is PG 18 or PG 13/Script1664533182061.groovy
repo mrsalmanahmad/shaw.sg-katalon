@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div[3]/div[1]/div[1]/div/p[1]/span[1]/span'
+//String xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div[3]/div[1]/div[1]/div/p[1]/span[1]/span'
+String xpath_for_pg = '//*[@id="movieData"]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div/p[1]/span[1]/span'
 
 //*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a
 //*[@id="moviesDiv"]/div[1]/div[6]/div[1]/div[1]/div/p[1]/span[1]/span
@@ -25,7 +26,10 @@ String xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div[3]/div[1]/div[1]/div/p[1]
 //*[@id="moviesDiv"]/div[1]/div[7]/div[1]/div[1]/div/p[1]/span[1]/span
 //*[@id="moviesDiv"]/div[1]/div[7]/div[2]/div[1]/a
 
-xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[1]/div[1]/div/p[1]/span[1]/span'
+//xpath_for_pg = '//*[@id="moviesDiv"]/div[1]/div['+Movie_Count+']/div[1]/div[1]/div/p[1]/span[1]/span'
+
+//xpath_for_pg = '//*[@id="movieData"]/div[2]/div['+Movie_Count+']/div[3]/div[1]/div[1]/div[1]/div/p[1]/span[1]/span'
+xpath_for_pg = '//*[@id="movieData"]/div[2]/div['+Movie_Count+']/div[3]/div[1]/div[1]/div[1]/div/p[1]/span[1]/span'
 
 String val = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'), 
 	[('xpath'):xpath_for_pg,('attrr'):'class'],
@@ -46,15 +50,18 @@ WebUI.comment(part4)
 // m18 pull for pg 18 movies
 // pg13 pull for pg 13 movies
 
-if(part4 == 'm18 pull') {
+if(part4.contains("m18")) {
 	return 'M18'
 }
-else if(part4 == 'pg13 pull') {
+else if(part4.contains('pg13')) {
 	return 'PG 13'
 }
-else if(part4 == 'nc16') {
+else if(part4.contains('nc16')) {
 	return 'NC 16'
 }
-else if(part4 == 'r21 pull') {
+else if(part4.contains('r21')) {
 	return 'R 21'
+}
+else if(part4.contains('pg')) {
+	return 'PG 13'
 }

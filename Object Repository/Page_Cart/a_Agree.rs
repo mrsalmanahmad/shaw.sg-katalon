@@ -6,12 +6,12 @@
    <elementGuidId>39bbe2d2-41d9-4f1d-9df2-f4bb17bc9082</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='rating_confirm']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#rating_confirm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div[9]/div[2]/div/div/div[3]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e13a0086-7ac9-4764-9c13-2ee0c48ad024</webElementGuid>
+      <webElementGuid>5cc9af88-88fb-4678-b294-1d2d3055f775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button form-control mid-wide bg-red inline</value>
-      <webElementGuid>f40f191a-fac4-4a25-b75b-675892677135</webElementGuid>
+      <webElementGuid>bc613885-f824-44ad-8561-301f37a0a1ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>rating_confirm</value>
-      <webElementGuid>a8e3eafa-d82a-4ccc-abb9-45328d136802</webElementGuid>
+      <webElementGuid>e30a5209-e3e0-455f-a2ef-779b354e1042</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Agree</value>
-      <webElementGuid>c2617bec-0ff4-4388-a165-6640eca968f2</webElementGuid>
+      <webElementGuid>f56f0ddb-fc62-425b-8a25-3967c8c14d30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rating_confirm&quot;)</value>
-      <webElementGuid>e90e2499-d53d-4d94-a7fd-a98a88ec995a</webElementGuid>
+      <webElementGuid>de3265be-02a0-4c14-aca0-bc2dd0116e24</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='rating_confirm']</value>
-      <webElementGuid>abe755cc-ca81-4aaa-8b21-33dd01fc540d</webElementGuid>
+      <webElementGuid>2b00e174-bac3-41a7-af11-92dc2ded1856</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popup-rating-warning']/div[2]/div/div/div[3]/a</value>
-      <webElementGuid>1434a3b2-633e-4b97-9b92-06d3f64d3ad9</webElementGuid>
+      <webElementGuid>186d199f-88a2-4cbb-ab4c-393f5b0840ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Agree')]</value>
-      <webElementGuid>97ff21c5-6143-4fe8-b886-fcfec13a8f1a</webElementGuid>
+      <webElementGuid>d2ab662e-0c4e-4d64-bb07-72b495f501ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please note that this film is rated M18 - Mature 18 for persons 18 years and above'])[1]/following::a[1]</value>
-      <webElementGuid>d6eb150e-963f-4848-90c3-2f98f58f03c4</webElementGuid>
+      <webElementGuid>2ac858ad-9791-4759-b45a-a9d77e707641</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IMPORTANT PLEASE READ'])[1]/following::a[1]</value>
-      <webElementGuid>960f0a2a-8c72-4215-a7a7-268fd565aef1</webElementGuid>
+      <webElementGuid>218ce76b-994f-4cb0-b0db-7cc0ae8123ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/preceding::a[1]</value>
-      <webElementGuid>2766bce1-184c-4bfb-875a-85c6762e9f0c</webElementGuid>
+      <webElementGuid>fd05bfbb-3fd9-4d76-b3fc-e368e6aa13f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Different Rows of Seats'])[1]/preceding::a[2]</value>
-      <webElementGuid>c8b7c09e-fc8b-450e-86c5-82d9109e3441</webElementGuid>
+      <webElementGuid>8e159153-2a7b-4bf3-8dd8-adbb225bb946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Agree']/parent::*</value>
-      <webElementGuid>596e3a48-21f6-4114-9aec-4f323abec518</webElementGuid>
+      <webElementGuid>89cf58e3-3683-45cf-bdbf-ac13deac73dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[27]/div[2]/div/div/div[3]/a</value>
-      <webElementGuid>c576c51f-e48c-4aed-93fd-942413f642a7</webElementGuid>
+      <webElementGuid>61af5179-5e9b-432e-b4c7-cfb80dca3179</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'rating_confirm' and (text() = 'Agree' or . = 'Agree')]</value>
-      <webElementGuid>fdb2d4d9-b65c-44e6-a0ed-d3bac078651c</webElementGuid>
+      <webElementGuid>be497b37-7a77-47a0-93a8-969829c15f3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

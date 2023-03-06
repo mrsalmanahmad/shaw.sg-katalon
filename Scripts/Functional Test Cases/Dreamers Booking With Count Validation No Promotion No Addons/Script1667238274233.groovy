@@ -36,7 +36,7 @@ while(seat_found == false) {
 		FailureHandling.STOP_ON_FAILURE)
 	
 	PG = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Check Movie is PG 18 or PG 13'),
-		[('Movie_Count'):Movie_Count],
+		[('Movie_Count'):Movie_Count, ('Dreamers'):true],
 		FailureHandling.STOP_ON_FAILURE)
 	
 	if(Movies > 0) {

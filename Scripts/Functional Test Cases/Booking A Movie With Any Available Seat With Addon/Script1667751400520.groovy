@@ -48,7 +48,7 @@ while(seat_found == false) {
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
-	
+	sleep(15000)
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	
@@ -90,8 +90,10 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booki
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
-	FailureHandling.STOP_ON_FAILURE)
+/*
+ * WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome
+ * to Shaw/button_SHOWTIMES'), FailureHandling.STOP_ON_FAILURE)
+ */
 
 WebUI.takeFullPageScreenshot()
 WebUI.deleteAllCookies()

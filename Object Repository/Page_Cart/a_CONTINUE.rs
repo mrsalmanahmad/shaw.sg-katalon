@@ -6,12 +6,12 @@
    <elementGuidId>f04b96c3-18b5-439e-94d1-1368cd09164c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='AddToOnePagePromotions']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#AddToOnePagePromotions</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;promotion&quot;]/div[2]/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b6f9b1ed-8883-4316-922a-8de4bd7854a1</webElementGuid>
+      <webElementGuid>09bb6d6f-f373-46f7-b039-30ce05fd781d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-custom text-uppercase btn-checkout mar-top-1</value>
-      <webElementGuid>1e234c5c-2b20-43f1-b8ef-e49138a5c6ee</webElementGuid>
+      <webElementGuid>99c2cf79-65db-4ad7-8d9f-05b31b89b7f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>AddToOnePagePromotions</value>
-      <webElementGuid>776562b9-c117-4df2-a2cd-e50e6ab7d6ce</webElementGuid>
+      <webElementGuid>79a4c5a4-a8f1-4101-998d-e4aabc8a3dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CONTINUE</value>
-      <webElementGuid>5831fdce-0047-410f-94f6-b6df640465b4</webElementGuid>
+      <webElementGuid>d98d1350-ec92-4e28-bfd2-b7958fea8cf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;AddToOnePagePromotions&quot;)</value>
-      <webElementGuid>b0c44b75-c584-4b04-96df-c8d528198912</webElementGuid>
+      <webElementGuid>dae20fb3-1464-435a-874e-3a16f7a8cd85</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='AddToOnePagePromotions']</value>
-      <webElementGuid>7c740b32-9595-4e22-b382-72bfdd8adbe6</webElementGuid>
+      <webElementGuid>7231416d-fb26-4758-ab29-eff92c447c2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'CONTINUE')]</value>
-      <webElementGuid>cb9a9814-2b31-46b9-9c6c-51aa193c3990</webElementGuid>
+      <webElementGuid>74bae76b-af63-490b-9ee6-5c5d48820e04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CONFIRM'])[1]/following::a[1]</value>
-      <webElementGuid>88339068-810a-4bf8-959f-d0b4c54565a8</webElementGuid>
+      <webElementGuid>0c5bf657-1dc8-4619-b804-7a8d456ddb51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/following::a[2]</value>
-      <webElementGuid>2ba6a00b-7a99-4347-9347-488d9f743822</webElementGuid>
+      <webElementGuid>3582a224-ba35-4953-b42e-5280c7fcab92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMOS'])[2]/preceding::a[1]</value>
-      <webElementGuid>a14e59f0-3c9c-4b54-9d1c-03eb1664234c</webElementGuid>
+      <webElementGuid>195752af-b616-4b43-acfd-a9bc8fa2b3bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD-ONS'])[1]/preceding::a[1]</value>
-      <webElementGuid>b202acec-82bb-4e1e-be86-aaccc9955994</webElementGuid>
+      <webElementGuid>67d5e570-d3d9-47e3-96a8-c1400c0678d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CONTINUE']/parent::*</value>
-      <webElementGuid>89207a5d-9b71-4b1c-8c43-051a27d9ff7b</webElementGuid>
+      <webElementGuid>d71702a8-24d3-4845-b781-50a820c87f35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[3]/div/div/a</value>
-      <webElementGuid>a69c384c-c7f9-4adb-8b08-86fb5326139d</webElementGuid>
+      <webElementGuid>fde0ae63-bd5e-4492-a185-ee0edc08f0ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'AddToOnePagePromotions' and (text() = 'CONTINUE' or . = 'CONTINUE')]</value>
-      <webElementGuid>30b4e041-3338-4fca-bb24-7b41f4648764</webElementGuid>
+      <webElementGuid>62ff2f38-78c3-4cdf-a500-0e9dab39bb54</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

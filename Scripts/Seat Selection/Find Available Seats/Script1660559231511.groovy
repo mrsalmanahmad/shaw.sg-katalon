@@ -65,6 +65,10 @@ while(seat_is_selected == false) {
 	
 	CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(newName)
 	
+	// Check if Handicap seat is selected then click on confirm btn of popup 
+	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/HandiCap Popup/Click on Confirm btn Handicap popup'), null,
+		FailureHandling.OPTIONAL)
+	
 	selected = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Get Quantity of Seats Selected'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	if(selected != 0) {

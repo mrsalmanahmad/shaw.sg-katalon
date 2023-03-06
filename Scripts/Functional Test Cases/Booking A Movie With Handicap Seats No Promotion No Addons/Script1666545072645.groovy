@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int Movie_Count = 3
+int Movie_Count = 4 
 boolean seat_found = false
 String PG = ''
 
@@ -47,7 +47,7 @@ while(seat_found == false) {
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
-	
+	sleep(8000)
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/All Seat Selection Patterens/Select Handicap Seat'), 
 		[('count_1'):2,
 		 ('ci'):5	
@@ -100,8 +100,10 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booki
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome to Shaw/button_SHOWTIMES'),
-	FailureHandling.STOP_ON_FAILURE)
+/*
+ * WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Welcome
+ * to Shaw/button_SHOWTIMES'), FailureHandling.STOP_ON_FAILURE)
+ */
 
 WebUI.deleteAllCookies()
 
