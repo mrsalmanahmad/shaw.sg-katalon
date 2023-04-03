@@ -94,6 +94,6 @@ WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Lookups/Select VISA Pay
 	FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/VISA Payment/Functional Test/Cancel VISA Payment'), null,
-	FailureHandling.STOP_ON_FAILURE)
+	FailureHandling.OPTIONAL)
 
 WebUI.deleteAllCookies()

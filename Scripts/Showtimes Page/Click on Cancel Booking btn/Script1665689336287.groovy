@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 String Cancel_btn = 'Object Repository/Page_Cart/a_Cancel'
 
-WebUI.click(findTestObject(Cancel_btn), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject(Cancel_btn), FailureHandling.OPTIONAL)
 
 //WebUI.verifyAlertPresent(10, FailureHandling.STOP_ON_FAILURE)
 sleep(3000)

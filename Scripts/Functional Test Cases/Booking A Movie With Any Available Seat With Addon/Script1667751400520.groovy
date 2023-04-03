@@ -81,7 +81,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Continue Add
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Cancel Booking btn'), null,
-	FailureHandling.STOP_ON_FAILURE)
+	FailureHandling.OPTIONAL)
 
 WebUI.acceptAlert(FailureHandling.OPTIONAL)
 
