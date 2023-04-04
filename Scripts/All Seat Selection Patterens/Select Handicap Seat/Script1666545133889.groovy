@@ -49,7 +49,7 @@ WebUI.comment("I am here ++++===== "+id)
 //	[('id'):Seat_Status],
 //	FailureHandling.STOP_ON_FAILURE)
 
-int count = size/2
+int count = size/4
 int selected = 0
 boolean seat_is_selected = false
 int seat_number = 0

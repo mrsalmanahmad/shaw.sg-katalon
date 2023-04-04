@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int Movie_Count = 3
+int Movie_Count = 2
 boolean seat_found = false
 String PG = ''
 
@@ -28,7 +28,7 @@ while(seat_found == false) {
 	
 	WebUI.callTestCase(findTestCase('Test Cases/Navigations/Open Dreamers Movies'), null,
 		FailureHandling.STOP_ON_FAILURE)
-	
+	sleep(3000)
 	int Movies = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Get Total number of Movies'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	

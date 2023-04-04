@@ -48,7 +48,7 @@ while(seat_found == false) {
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
-	
+	sleep(4000)
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Seat Selection/Find Available Seats'), null,
 		FailureHandling.STOP_ON_FAILURE)
 	
