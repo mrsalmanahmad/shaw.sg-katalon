@@ -34,27 +34,27 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Select
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.enableSmartWait() 
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.enableSmartWait()
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.enableSmartWait()
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.enableSmartWait()
 
 // ADD KIDS
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'), 
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Continue btn'), [:],
@@ -81,7 +81,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Select
 	FailureHandling.STOP_ON_FAILURE)
 // ADD KID
 WebUI.callTestCase(findTestCase('Test Cases/Core/Click by Xpath'),
-	[("xpath"):"/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
+	[("xpath"):"/html/body/div[1]/div/div[2]/div[1]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[3]/div/div"],
 	FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Continue btn'), [:],

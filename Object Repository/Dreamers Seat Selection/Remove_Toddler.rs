@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[2]/div/i[1]</value>
+         <value>//*[@id=&quot;content&quot;]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[2]/div/i[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>0a217b37-5c77-4d57-85ed-113ec0dff7af</webElementGuid>
+      <webElementGuid>3872e028-ec8d-4d4c-9c15-51ff104dd05e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-minus dr-minus</value>
-      <webElementGuid>d2979eb2-d75c-4d25-a0ed-f9f05fd52905</webElementGuid>
+      <webElementGuid>52344200-7300-495e-aee7-6c75a4852b04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;wrap-table&quot;]/div[@class=&quot;wrap-display-row&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;seat-sections-content&quot;]/div[@class=&quot;container big-step cart-breakdown&quot;]/div[@class=&quot;dreamers-tix-section&quot;]/div[@class=&quot;row black-back cart-section&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;dreamers-ticket-section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-xs-4 text-center&quot;]/div[@class=&quot;dreamers-qty-section&quot;]/i[@class=&quot;fa fa-minus dr-minus&quot;]</value>
-      <webElementGuid>00484640-6272-4096-a9dd-1f02484b0767</webElementGuid>
+      <webElementGuid>bbdb0b42-cb76-4263-beae-9ece46a81a78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +45,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/i</value>
-      <webElementGuid>51c1e74b-b1e2-4f50-a36f-9a965916bd65</webElementGuid>
+      <webElementGuid>fce94bda-7e98-48e1-9e75-ff4d4c2cb6de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

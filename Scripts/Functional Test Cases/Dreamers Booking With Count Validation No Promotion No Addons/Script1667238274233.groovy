@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int Movie_Count = 2
+int Movie_Count = 3
 boolean seat_found = false
 String PG = ''
 
@@ -42,7 +42,7 @@ while(seat_found == false) {
 	if(Movies > 0) {
 		if(Movies_time > 0) {
 			WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/IMax Movies Selection/Click on IMax Movies'),
-				[('Movie_Count'):Movie_Count],
+				[('Movie_Count'):Movie_Count, ('Dreamers'):true],
 				FailureHandling.STOP_ON_FAILURE)
 		}
 	}
@@ -63,7 +63,7 @@ while(seat_found == false) {
 	
 	WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Reset btn'), [:],
 		FailureHandling.STOP_ON_FAILURE)
-	
+	sleep(9000)
 	seat_found = WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Find Available Seats'), 
 		[('count_1'):2],
 		FailureHandling.STOP_ON_FAILURE)
@@ -82,6 +82,12 @@ else if(PG == 'NC 16') {
 	WebUI.callTestCase(findTestCase('Test Cases/Pop Ups/NC 16 Pop Up/Click on Agree btn of NC 16 Pop Up'), null,
 		FailureHandling.CONTINUE_ON_FAILURE)
 }
+
+sleep(2000)
+WebUI.comment('second')
+WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Proceed btn if Different Row Seat Selected'), null,
+	FailureHandling.CONTINUE_ON_FAILURE)
+
 sleep(2000)
 WebUI.comment('first')
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn'), null,
@@ -90,7 +96,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Click on Conitnue btn
 sleep(2000)
 WebUI.comment('second')
 WebUI.callTestCase(findTestCase('Test Cases/Showtimes Page/Dreamers Movie Selection/Click on Proceed btn if Different Row Seat Selected'), null,
-	FailureHandling.STOP_ON_FAILURE)
+	FailureHandling.CONTINUE_ON_FAILURE)
 
 sleep(2000)
 WebUI.comment('third')

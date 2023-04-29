@@ -33,6 +33,11 @@ xpath_for_pg = '//*[@id="movieData"]/div[2]/div['+Movie_Count+']/div[3]/div[1]/d
 
 xpath_for_pg= '//*[@id="movieData"]/div[2]/div[2]/div[3]/div['+Movie_Count+']/div[1]/div[1]/div/p[1]/span[1]/span'
 
+if(Dreamers == true) {
+	xpath_for_pg = '//*[@id="movieData"]/div[2]/div/div['+Movie_Count+']/div/div[1]/div[1]/div/p[1]/span[1]/span'
+}
+
+
 String val = WebUI.callTestCase(findTestCase('Test Cases/Core/Get Any Attribute of any Element using xpath'), 
 	[('xpath'):xpath_for_pg,('attrr'):'class'],
 		FailureHandling.STOP_ON_FAILURE)

@@ -28,4 +28,8 @@ String ted = '//*[@id="moviesDiv"]/div[1]/div[6]/div[2]/div/a'
  
  ted = '//*[@id="movieData"]/div[2]/div[2]/div[3]/div['+Movie_Count+']/div[2]/div/a'
  
+if(Dreamers == true) {
+	ted = '//*[@id="movieData"]/div[2]/div/div['+Movie_Count+']/div/div[2]/div[1]/a'
+	} 
+ 
  CustomKeywords.'custom.com.pk.ClickonAnyElementUsingXpath'(ted)

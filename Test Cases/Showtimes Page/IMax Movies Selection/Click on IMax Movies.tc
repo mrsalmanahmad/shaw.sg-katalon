@@ -11,11 +11,24 @@
       <value></value>
       <variableId>29b25bd7-c30c-4c7a-9efb-216062ab1878</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc3222cb-8810-4917-b230-6c5371f5e81d</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>3</defaultValue>
       <description></description>
       <id>29b25bd7-c30c-4c7a-9efb-216062ab1878</id>
       <masked>false</masked>
       <name>Movie_Count</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>dc3222cb-8810-4917-b230-6c5371f5e81d</id>
+      <masked>false</masked>
+      <name>Dreamers</name>
    </variable>
 </TestCaseEntity>

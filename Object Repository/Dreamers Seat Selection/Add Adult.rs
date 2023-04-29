@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div[2]/div[8]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/i[2]</value>
+         <value>//*[@id=&quot;content&quot;]/div[9]/div[4]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/i[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>0a423476-eacd-4e38-b9f5-b9554439437f</webElementGuid>
+      <webElementGuid>7c2afa79-0a52-4ca5-9614-25a0bb89b732</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-plus dr-plus</value>
-      <webElementGuid>c7493dbe-6202-48eb-9947-5e30afb02045</webElementGuid>
+      <webElementGuid>2d9717b0-47bc-49bc-aa3c-10c74ecdba35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths cb-customize-desktop chrome&quot;]/body[1]/div[@class=&quot;wrap-table&quot;]/div[@class=&quot;wrap-display-row&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;seat-sections-content&quot;]/div[@class=&quot;container big-step cart-breakdown&quot;]/div[@class=&quot;dreamers-tix-section&quot;]/div[@class=&quot;row black-back cart-section&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;dreamers-ticket-section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-xs-4 text-center&quot;]/div[@class=&quot;dreamers-qty-section&quot;]/i[@class=&quot;fa fa-plus dr-plus&quot;]</value>
-      <webElementGuid>361575c7-6d5f-4e7e-b349-0c6527ad02d5</webElementGuid>
+      <webElementGuid>8a71d503-0839-4bd9-a0cb-94d2462c8984</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i[2]</value>
-      <webElementGuid>914f23be-760c-435a-a3af-303f5a0b9250</webElementGuid>
+      <webElementGuid>1d2e3c6f-ba09-4ae5-abfd-6349192f314c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
